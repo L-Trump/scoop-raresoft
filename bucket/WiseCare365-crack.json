@@ -1,0 +1,20 @@
+{
+    "version": "5.5.2",
+    "description": "WiseCare365 Crack",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WiseCare365-5.5.2-crack.exe#dl.7z",
+	"hash": "6792fe62f63988d6e238dc949b50fe7c3c9af033a74ce3fb2db7d6853c6a923c",
+	"extract_dir": "WiseCare365",
+    "bin": [
+        "WiseCare365.exe"
+    ],
+    "shortcuts": [
+        [
+            "WiseCare365.exe",
+            "WiseCare365"
+        ]
+    ],
+	"checkver": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
+        "re": "WiseCare365-([\\d.]+)-crack"
+    }
+}
