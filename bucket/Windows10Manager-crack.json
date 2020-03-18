@@ -15,6 +15,6 @@
     ],
 	"checkver": {
         "url": "https://repo.continuum.io/archive",
-        "re": "Windows10Manager-([\\d.]+)\.7z"
+        "re": "Windows10Manager-([\\d.]+).7z"
     }
 }

@@ -1,0 +1,16 @@
+{
+    "version": "10.0.2",
+    "description": "XMind Zen 64bit Crack",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN-10.0.2-64bit.exe#dl.7z",
+	"extract_dir": "XMindZEN",
+    "shortcuts": [
+        [
+            "XMind ZEN.exe",
+            "XMind ZEN"
+        ]
+    ],
+	"checkver": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
+        "re": "XMindZEN-([\\d.]+)-64bit"
+    }
+}
