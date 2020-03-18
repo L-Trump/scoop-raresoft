@@ -1,0 +1,15 @@
+{
+    "version": "3.2.3",
+    "description": "Windows10Manager",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Windows10Manager-3.2.3.7z",
+	"extract_dir": "Windows10Manager",
+    "bin": [
+        "Windows10Manager.exe"
+    ],
+    "shortcuts": [
+        [
+            "Windows10Manager.exe",
+            "Windows10 Manager"
+        ]
+    ]
+}
