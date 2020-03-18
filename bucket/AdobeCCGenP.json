@@ -11,6 +11,6 @@
     ],
 	"checkver": {
         "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-        "re": "Adobe CC GenP v([\\d.]+)\.zip"
+        "re": "Adobe CC GenP v([\\d.]+).zip"
     }
 }
