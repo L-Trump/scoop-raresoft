@@ -1,0 +1,15 @@
+{
+    "version": "6.51",
+    "description": "GoldWave Crack",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/GoldWave-6.51-crack-64bit.7z",
+	"extract_dir": "GoldWave 6.51 zh-CHS",
+    "bin": [
+        "GoldWave.exe"
+    ],
+    "shortcuts": [
+        [
+            "GoldWave.exe",
+            "GoldWave"
+        ]
+    ]
+}
