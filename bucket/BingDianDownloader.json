@@ -1,0 +1,19 @@
+{
+    "version": "3.2.12",
+    "description": "Download Documents From Wenku",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/BingDian Wenku Downloader v3.2.12.exe",
+    "hash": "b57e1856220889ed91afe90f94f035038019296d44d3ce87b9648d0434f9ae2c",
+    "bin": [
+        ["BingDian Wenku Downloader v3.2.12.exe","bingdianwk"]
+    ],
+    "shortcuts": [
+        [
+            "BingDian Wenku Downloader v3.2.12.exe",
+            "±ùµãÎÄ¿âÏÂÔØÆ÷"
+        ]
+    ],
+    "checkver": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
+        "re": "BingDian Wenku Downloader v([\\d.]+).exe"
+    }
+}
