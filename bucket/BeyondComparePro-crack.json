@@ -8,7 +8,7 @@
     "installer": {
         "script": "sudo cmd /c \"$dir\\AddMenu.bat\""
     },
-    "uninstaller" {
+    "uninstaller": {
         "script": "sudo cmd /c \"$dir\\DelMenu.bat\""
     },
     "bin": [
