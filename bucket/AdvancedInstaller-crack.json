@@ -1,0 +1,15 @@
+{
+    "version": "16.7",
+    "description": "Advanced Installer Crack",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Advanced Installer-16.7-crack.7z",
+    "shortcuts": [
+        [
+            "bin\\x86\\advinst.exe",
+            "Advanced Installer"
+        ]
+    ],
+    "checkver": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
+        "re": "Advanced Installer-([\\d.]+)-crack"
+    }
+}
