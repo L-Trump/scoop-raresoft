@@ -31,6 +31,7 @@
 | 冰点文库下载器 | ~~*历史悠久*~~的文库下载工具，到如今还是非常好用 |
 | BeyondCompare Pro| 十分牛逼的文件对比工具，支持各种格式的对比 |
 | IDM | Internet Download Manager的多线程下载是真的牛逼！|
+| WinOptimizer | 功能极度丰富的系统优化工具 |
 
 ***To Be Continue~***
 
