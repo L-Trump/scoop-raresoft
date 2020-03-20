@@ -1,0 +1,17 @@
+{
+    "version": "6.37.7",
+    "description": "IDM Crack",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/crack/InetDownloadManager-6.37.7-crack.exe#dl.7z",
+    "hash": "1d8da26294ba98aec460896ae5bdeaa5d357e945bc76de5b4c514dee3365ff30",
+    "extract_dir": "Internet Download Manager",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        ["IDMan.exe","IDM"]
+    ]
+}

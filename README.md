@@ -30,6 +30,7 @@
 | Adobe CC GenP | Adobe全套激活工具，可激活Creative Cloud的全部订阅 |
 | 冰点文库下载器 | ~~*历史悠久*~~的文库下载工具，到如今还是非常好用 |
 | BeyondCompare Pro| 十分牛逼的文件对比工具，支持各种格式的对比 |
+| IDM | Internet Download Manager的多线程下载是真的牛逼！|
 
 ***To Be Continue~***
 
