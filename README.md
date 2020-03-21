@@ -32,6 +32,8 @@
 | BeyondCompare Pro| 十分牛逼的文件对比工具，支持各种格式的对比 |
 | IDM | Internet Download Manager的多线程下载是真的牛逼！|
 | WinOptimizer | 功能极度丰富的系统优化工具 |
+| NtrQQ | 精简绿化版QQ，有本地会员、防撤回等功能 |
+| AdvancedInstaller | 好用的应用打包、重打包工具 |
 
 ***To Be Continue~***
 

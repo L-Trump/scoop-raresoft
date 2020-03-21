@@ -1,0 +1,26 @@
+{
+    "version": "9.2.3.26683",
+    "description": "Purified QQ with NtrQQ",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQ-9.2.3.26683-NtrQQ.exe#dl.7z",
+    "extract_dir": "QQ",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        ["Bin\\QQScLauncher.exe","QQ"]
+    ],
+    "shortcuts": [
+        [
+            "Bin\\QQScLauncher.exe",
+            "QQ"
+        ]
+    ],
+    "checkver": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
+        "re": "QQ-([\\d.]+)-NtrQQ"
+    }
+}
