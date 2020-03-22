@@ -35,6 +35,7 @@
 | NtrQQ | 精简绿化版QQ，有本地会员、防撤回等功能 |
 | AdvancedInstaller | 好用的应用打包、重打包工具 |
 | KuwoMusic | 酷我牛逼，基本共享酷狗和QQ音乐的曲库 |
+| XshellPlus | 好用的SSH/Telnet/Xftp连接工具 |
 
 ***To Be Continue~***
 
