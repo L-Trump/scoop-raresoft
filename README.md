@@ -36,6 +36,7 @@
 | AdvancedInstaller | 好用的应用打包、重打包工具 |
 | KuwoMusic | 酷我牛逼，基本共享酷狗和QQ音乐的曲库 |
 | XshellPlus | 好用的SSH/Telnet/Xftp连接工具 |
+| BandiCam | 班迪录屏，游戏录屏神器 |
 
 ***To Be Continue~***
 

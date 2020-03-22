@@ -3,6 +3,7 @@
     "description": "Purified QQ with NtrQQ",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQ-9.2.3.26683-NtrQQ.exe#dl.7z",
+    "hash": "fb64834bc6b1728ccfdfb5741da990d23cee644425152f5c85d9c77399dcf776",
     "extract_dir": "QQ",
     "installer": {
         "script": "sudo cmd /c \"$dir\\setup.bat\""

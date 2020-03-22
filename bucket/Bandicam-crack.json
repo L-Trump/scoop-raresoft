@@ -1,0 +1,18 @@
+{
+    "version": "4.5.7.1660",
+    "description": "Bandicam Crack",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Bandicam-4.5.7.1660-crack.7z",
+    "hash": "076ba60f9a5c79ff403751367023706079a811fbae06981eca8d8efb7f304017",
+    "extract_dir": "BandicamPortable",
+    "bin": [
+        ["Bandicam_Portable.exe","Bandicam"]
+    ],
+    "shortcuts": [
+        ["Bandicam_Portable.exe","Bandicam"],
+        ["App\\Bandicam\\bdfix.exe","Bandifix"]
+    ],
+    "checkver": {
+        "url": "https://www.ghpym.com/bandicam.html",
+        "re": " Bandicam v([\\d.]+)"
+    }
+}

@@ -3,6 +3,7 @@
     "description": "Kuwo Music Crack",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/KuwoMusic-9.0.9-crack.7z",
+    "hash": "166c90030a06f5c8b867fede62eb4b9222332f3de5ea31705eef1e41e27dd35f",
     "installer": {
         "script": "sudo cmd /c \"$dir\\install.bat\""
     },

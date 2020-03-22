@@ -1,2 +1,8 @@
-if(!$env:SCOOP_HOME) { $env:SCOOP_HOME = resolve-path (split-path (split-path (scoop which scoop))) }
-Invoke-Pester "$psscriptroot/.."
+<#
+.SYNOPSIS
+    Execute Pester tests in repository root directory.
+#>
+
+$result = Invoke-Pester "$PSScriptRoot\..\Scoop-Bucket.Tests.Local.ps1" -PassThru
+
+exit $result.FailedCount
