@@ -34,6 +34,7 @@
 | WinOptimizer | 功能极度丰富的系统优化工具 |
 | NtrQQ | 精简绿化版QQ，有本地会员、防撤回等功能 |
 | AdvancedInstaller | 好用的应用打包、重打包工具 |
+| KuwoMusic | 酷我牛逼，基本共享酷狗和QQ音乐的曲库 |
 
 ***To Be Continue~***
 

@@ -1,0 +1,18 @@
+{
+    "version": "9.0.9",
+    "description": "Kuwo Music Crack",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/KuwoMusic-9.0.9-crack.7z",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\install.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        ["KwMusic.exe","kuwo"]
+    ],
+    "shortcuts": [
+        ["KwMusic.exe","ø·Œ““Ù¿÷"]
+    ]
+}
