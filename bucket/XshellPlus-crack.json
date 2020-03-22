@@ -18,7 +18,7 @@
     "shortcuts": [
         ["Xshell.exe","Xshell"],
         ["Xftp.exe","Xftp"]
-    ]
+    ],
     "checkver": {
         "url": "https://masuit.com/178/history",
         "re": " v([\\d.]+)"
