@@ -20,7 +20,7 @@
         ]
     ],
     "checkver": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-        "re": "QQ-([\\d.]+)-NtrQQ"
+        "url": "https://masuit.com/123",
+        "re": "QQ ([\\d.]+)"
     }
 }

@@ -11,7 +11,7 @@
         ]
     ],
     "checkver": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-        "re": "XMindZEN-([\\d.]+)-64bit"
+        "url": "https://masuit.com/1404/history",
+        "re": " v([\\d.]+)"
     }
 }

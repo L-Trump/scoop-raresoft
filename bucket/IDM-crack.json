@@ -13,5 +13,9 @@
     },
     "bin": [
         ["IDMan.exe","IDM"]
-    ]
+    ],
+    "checkver": {
+        "url": "https://masuit.com/74",
+        "re": "InternetDownloadManager([\\d.]+) "
+    }
 }

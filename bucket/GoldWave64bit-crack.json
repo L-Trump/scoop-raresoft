@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-        "re": "GoldWave-([\\d.]+)-crack"
+        "url": "https://masuit.com/1519/history",
+        "re": " v([\\d.]+)"
     }
 }

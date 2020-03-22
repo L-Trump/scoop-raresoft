@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-        "re": "BingDian Wenku Downloader v([\\d.]+).exe"
+        "url": "https://masuit.com/83/history",
+        "re": " v([\\d.]+)"
     }
 }

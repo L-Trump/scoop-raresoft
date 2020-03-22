@@ -14,7 +14,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://repo.continuum.io/archive",
-        "re": "Windows10Manager-([\\d.]+).7z"
+        "url": "https://masuit.com/1253/history",
+        "re": " v([\\d.]+)"
     }
 }

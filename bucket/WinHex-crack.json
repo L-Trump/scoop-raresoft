@@ -29,7 +29,7 @@
         }
     },
     "checkver": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-        "re": "WinHex-([\\d.]+)-crack"
+        "url": "https://masuit.com/1291/history",
+        "re": "winhex ([\\d.]+)"
     }
 }
