@@ -8,6 +8,7 @@
     },
     "notes": "Set up context menu within settings window.",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinRAR-v5.90-beta3-x64-SC.7z",
+    "hash": "7bd7de9ff6e238b7147507ed9d8f8b7584cf683a31ec670f8c43c1d2d94aa37c",
     "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
     "post_install": [
         "cmd /c \"\"$dir\\Uninstall.exe\" /clean\"",
@@ -24,7 +25,7 @@
     },
     "checkver": {
         "url": "https://masuit.com/1186/history",
-        "re": "v([\\d.]+)([beta\\d]?)",
+        "re": "v([\\d.]+) (beta\\d)?",
         "replace": "${1}${2}"
     }
 }
