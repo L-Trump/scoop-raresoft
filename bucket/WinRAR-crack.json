@@ -1,0 +1,30 @@
+{
+    "version": "5.90beta3",
+    "description": "Powerful archive manager",
+    "homepage": "https://rarlab.com/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.win-rar.com/gtb_priv.html?&L=0"
+    },
+    "notes": "Set up context menu within settings window.",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinRAR-v5.90-beta3-x64-SC.7z",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
+    "post_install": [
+        "cmd /c \"\"$dir\\Uninstall.exe\" /clean\"",
+        "cmd /c \"\"$dir\\Uninstall.exe\" /setup\""
+    ],
+    "bin": [
+        "Rar.exe",
+        "UnRAR.exe",
+        "WinRAR.exe"
+    ],
+    "persist": "rarreg.key",
+    "uninstaller": {
+        "script": "cmd /c \"\"$dir\\Uninstall.exe\"\""
+    },
+    "checkver": {
+        "url": "https://masuit.com/1186/history",
+        "re": "v([\\d.]+)([beta\\d]?)",
+        "replace": "${1}${2}"
+    }
+}
