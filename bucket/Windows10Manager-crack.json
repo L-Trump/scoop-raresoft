@@ -4,9 +4,7 @@
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Windows10Manager-3.2.3.7z",
     "hash": "888e8ff609e5998f6a60a86d44b449368a4b42622794f21db32c4dfbe8c5c8b4",
     "extract_dir": "Windows10Manager",
-    "bin": [
-        "Windows10Manager.exe"
-    ],
+    "bin": "Windows10Manager.exe",
     "shortcuts": [
         [
             "Windows10Manager.exe",

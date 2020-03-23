@@ -12,10 +12,13 @@
         "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "bin": [
-        ["IDMan.exe","IDM"]
+        [
+            "IDMan.exe",
+            "IDM"
+        ]
     ],
     "checkver": {
-        "url": "https://masuit.com/74",
-        "re": "InternetDownloadManager([\\d.]+) "
+        "url": "https://masuit.com/74/history",
+        "re": "er([\\d.]+) "
     }
 }

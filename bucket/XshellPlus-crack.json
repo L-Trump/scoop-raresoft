@@ -12,12 +12,24 @@
         "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "bin": [
-        ["Xshell.exe","Xshell"],
-        ["Xftp.exe","Xftp"]
+        [
+            "Xshell.exe",
+            "Xshell"
+        ],
+        [
+            "Xftp.exe",
+            "Xftp"
+        ]
     ],
     "shortcuts": [
-        ["Xshell.exe","Xshell"],
-        ["Xftp.exe","Xftp"]
+        [
+            "Xshell.exe",
+            "Xshell"
+        ],
+        [
+            "Xftp.exe",
+            "Xftp"
+        ]
     ],
     "checkver": {
         "url": "https://masuit.com/178/history",

@@ -5,11 +5,20 @@
     "hash": "076ba60f9a5c79ff403751367023706079a811fbae06981eca8d8efb7f304017",
     "extract_dir": "BandicamPortable",
     "bin": [
-        ["Bandicam_Portable.exe","Bandicam"]
+        [
+            "Bandicam_Portable.exe",
+            "Bandicam"
+        ]
     ],
     "shortcuts": [
-        ["Bandicam_Portable.exe","Bandicam"],
-        ["App\\Bandicam\\bdfix.exe","Bandifix"]
+        [
+            "Bandicam_Portable.exe",
+            "Bandicam"
+        ],
+        [
+            "App\\Bandicam\\bdfix.exe",
+            "Bandifix"
+        ]
     ],
     "checkver": {
         "url": "https://www.ghpym.com/bandicam.html",

@@ -79,29 +79,29 @@ Describe 'Style constraints for non-binary project files' {
         }
     }
 
-    It 'File newlines are CRLF' -Skip:$(-not $filesExist) {
-        $badFiles = @(
-            foreach ($file in $files) {
-                $content = Get-Content -Raw $file.FullName
-                if (-not $content) {
-                    throw "File contents are null: $($file.FullName)"
-                }
-                $lines = [Regex]::Split($content, '\r\n')
-                $lineCount = $lines.Count
+    # It 'File newlines are CRLF' -Skip:$(-not $filesExist) {
+        # $badFiles = @(
+            # foreach ($file in $files) {
+                # $content = Get-Content -Raw $file.FullName
+                # if (-not $content) {
+                    # throw "File contents are null: $($file.FullName)"
+                # }
+                # $lines = [Regex]::Split($content, '\r\n')
+                # $lineCount = $lines.Count
 
-                for ($i = 0; $i -lt $lineCount; $i++) {
-                    if ([Regex]::Match($lines[$i], '\r|\n').Success) {
-                        $file.FullName
-                        break
-                    }
-                }
-            }
-        )
+                # for ($i = 0; $i -lt $lineCount; $i++) {
+                    # if ([Regex]::Match($lines[$i], '\r|\n').Success) {
+                        # $file.FullName
+                        # break
+                    # }
+                # }
+            # }
+        # )
 
-        if ($badFiles.Count -gt 0) {
-            throw "The following files have non-CRLF line endings: `r`n`r`n$($badFiles -join "`r`n")"
-        }
-    }
+        # if ($badFiles.Count -gt 0) {
+            # throw "The following files have non-CRLF line endings: `r`n`r`n$($badFiles -join "`r`n")"
+        # }
+    # }
 
     It 'Files have no lines containing trailing whitespace' -Skip:$(-not $filesExist) {
         $badLines = @(

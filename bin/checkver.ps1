@@ -51,6 +51,8 @@
 .EXAMPLE
     PS BUCKETROOT > .\bin\checkver.ps1 MANIFEST -f
     Check manifest with name MANIFEST.json in root and update even when there is no new version.
+.EXAMPLE
+    PS BUCKETROOT > .\bin\checkver.ps1 -ns -Rest '-Cookie "cf_clearance=" -UserAgent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"'
 #>
 param(
     [Parameter(ValueFromPipeline = $true)]

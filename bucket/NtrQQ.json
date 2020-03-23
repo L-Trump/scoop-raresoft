@@ -12,7 +12,10 @@
         "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "bin": [
-        ["Bin\\QQScLauncher.exe","QQ"]
+        [
+            "Bin\\QQScLauncher.exe",
+            "QQ"
+        ]
     ],
     "shortcuts": [
         [

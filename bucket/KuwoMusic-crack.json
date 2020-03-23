@@ -11,9 +11,15 @@
         "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "bin": [
-        ["KwMusic.exe","kuwo"]
+        [
+            "KwMusic.exe",
+            "kuwo"
+        ]
     ],
     "shortcuts": [
-        ["KwMusic.exe","酷我音乐"]
+        [
+            "KwMusic.exe",
+            "酷我音乐"
+        ]
     ]
 }

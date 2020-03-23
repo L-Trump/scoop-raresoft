@@ -12,7 +12,10 @@
         "script": "sudo cmd /c \"$dir\\DelMenu.bat\""
     },
     "bin": [
-        ["BCompare.exe","BeyondComp"]
+        [
+            "BCompare.exe",
+            "BeyondComp"
+        ]
     ],
     "shortcuts": [
         [
@@ -21,7 +24,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://masuit.com/1228",
-        "re": "Beyond Compare ([\\d.]+)"
+        "url": "https://masuit.com/1228/history",
+        "re": "Compare\\s([\\d.]+)"
     }
 }
