@@ -1,0 +1,24 @@
+{
+    "version": "8.13.17603",
+    "description": "RStudio Crack",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/R-Studio-8.13-176037.7z",
+    "bin": [
+        [
+            "RStudioPortable.exe",
+            "RStudio"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "RStudioPortable.exe",
+            "R-Studio"
+        ]
+    ],
+    "persist": [
+        ["Data","RStudio_Data"]
+    ],
+    "checkver": {
+        "url": "https://www.ghpym.com/rstudio.html",
+        "re": "v([\\d.]+)"
+    }
+}
