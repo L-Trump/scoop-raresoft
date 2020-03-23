@@ -37,6 +37,8 @@
 | KuwoMusic | 酷我牛逼，基本共享酷狗和QQ音乐的曲库 |
 | XshellPlus | 好用的SSH/Telnet/Xftp连接工具 |
 | BandiCam | 班迪录屏，游戏录屏神器 |
+| WinRAR | 最好用的压缩软件 |
+| RStudio | 强大的数据恢复软件，支持多种文件系统 |
 
 ***To Be Continue~***
 
