@@ -2,6 +2,7 @@
     "version": "8.13.17603",
     "description": "RStudio Crack",
     "url": "http://xqh.ma:33001/189/R-Studio-8.13-176037.7z",
+    "hash": "481e2b73059907b5c4f98ef8a2204f8042fd94f9ea6935540166f021585dca15",
     "bin": [
         [
             "RStudioPortable.exe",
