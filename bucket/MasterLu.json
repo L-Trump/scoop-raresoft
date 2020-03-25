@@ -11,7 +11,7 @@
         ]
     ],
     "shortcuts": [
-        ["MasterLu.exe","鲁大师"]
+        ["MasterLu.exe","..\\鲁大师"]
     ],
     "checkver": {
         "url": "https://www.mpyit.com/ludashi.html",
