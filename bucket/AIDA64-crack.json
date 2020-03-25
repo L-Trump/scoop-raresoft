@@ -1,0 +1,18 @@
+{
+    "version": "6.20.5300",
+    "description": "Aida64 Extreme Edition. System information tool with extremely detailed information about hardware and benchmarks to measure the performance of the computer",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AIDA64.v6.20.5300.7z",
+    "hash": "4cc2be7bfd5830610e12376dbdf66721526edc2cedc2d621baadc5f98e0ffbd5",
+    "extract_dir": "AIDA64",
+    "bin": "aida64.exe",
+    "shortcuts": [
+        [
+            "aida64.exe",
+            "AIDA64 Extreme"
+        ]
+    ],
+    "checkver": {
+        "url": "https://masuit.com/1290/history",
+        "re": " v([\\d.]+)"
+    }
+}
