@@ -46,7 +46,7 @@
 | WondersharePDFelement| 万兴PDF专家，功能齐全 |
 | WondershareRecoverit | 万兴数据恢复工具 |
 | WondershareUniconverter | 万兴万能格式转化器 |
-
+| MasterLu | 鲁大师绿色去广告单文件版 |
 
 ***To Be Continue~***
 
