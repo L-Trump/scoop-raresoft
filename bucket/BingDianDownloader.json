@@ -1,6 +1,6 @@
 {
     "version": "3.2.12",
-    "description": "Download Documents From Wenku",
+    "description": "冰点文库下载器，挺久没用这个东西了",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/BingDianWenkuDownloader-v3.2.12.exe",
     "hash": "b57e1856220889ed91afe90f94f035038019296d44d3ce87b9648d0434f9ae2c",
     "bin": [

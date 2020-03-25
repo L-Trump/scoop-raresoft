@@ -39,10 +39,14 @@
 | BandiCam | 班迪录屏，游戏录屏神器 |
 | WinRAR | 最好用的压缩软件 |
 | RStudio | 强大的数据恢复软件，支持多种文件系统 |
-| Uniconverter | 万兴万能格式转化器 |
 | AIDA64 | 十分详细的电脑硬件信息查看工具 |
 | IObitUninstaller | 快捷的应用管理工具，快速安装/卸载/清理残留 |
 | YoudaoDict | 有道词典绿色精简VIP破解版 |
+| WondershareFilemora | 万兴神剪手，视频剪辑工具 |
+| WondersharePDFelement| 万兴PDF专家，功能齐全 |
+| WondershareRecoverit | 万兴数据恢复工具 |
+| WondershareUniconverter | 万兴万能格式转化器 |
+
 
 ***To Be Continue~***
 
