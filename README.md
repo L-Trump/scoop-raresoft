@@ -28,7 +28,7 @@
 | WiseCare365 | 著名的系统清理软件，功能完善 |
 | XMindZEN | 构思新颖，操作便捷的思维导图软件，由XMind演变而来 |
 | Adobe CC GenP | Adobe全套激活工具，可激活Creative Cloud的全部订阅 |
-| 冰点文库下载器 | ~~*历史悠久*~~的文库下载工具，到如今还是非常好用 |
+| BingDianDownloader | 冰点文库下载器，挺久前就有的东西 |
 | BeyondCompare Pro| 十分牛逼的文件对比工具，支持各种格式的对比 |
 | IDM | Internet Download Manager的多线程下载是真的牛逼！|
 | WinOptimizer | 功能极度丰富的系统优化工具 |
@@ -41,7 +41,8 @@
 | RStudio | 强大的数据恢复软件，支持多种文件系统 |
 | Uniconverter | 万兴万能格式转化器 |
 | AIDA64 | 十分详细的电脑硬件信息查看工具 |
-
+| IObitUninstaller | 快捷的应用管理工具，快速安装/卸载/清理残留 |
+| YoudaoDict | 有道词典绿色精简VIP破解版 |
 
 ***To Be Continue~***
 
