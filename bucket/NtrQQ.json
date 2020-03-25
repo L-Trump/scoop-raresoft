@@ -20,7 +20,7 @@
     "shortcuts": [
         [
             "Bin\\QQScLauncher.exe",
-            "QQ"
+            "..\\腾讯软件\\QQ"
         ]
     ],
     "checkver": {
