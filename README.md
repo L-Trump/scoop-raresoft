@@ -40,6 +40,8 @@
 | WinRAR | 最好用的压缩软件 |
 | RStudio | 强大的数据恢复软件，支持多种文件系统 |
 | Uniconverter | 万兴万能格式转化器 |
+| AIDA64 | 十分详细的电脑硬件信息查看工具 |
+
 
 ***To Be Continue~***
 
