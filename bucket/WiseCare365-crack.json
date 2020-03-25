@@ -1,5 +1,5 @@
 {
-    "version": "5.5.2",
+    "version": "5.5.2.547",
     "description": "WiseCare365 Edition, a tool to clean your pc everyday",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WiseCare365-5.5.2-crack.exe#dl.7z",
     "hash": "6792fe62f63988d6e238dc949b50fe7c3c9af033a74ce3fb2db7d6853c6a923c",
@@ -12,7 +12,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://masuit.com/36/history",
-        "re": "WiseCare 365_([\\d.]+)"
+        "url": "https://www.mpyit.com/wisecare365.html",
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
     }
 }
