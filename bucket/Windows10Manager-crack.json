@@ -1,8 +1,8 @@
 {
-    "version": "3.2.3",
+    "version": "3.2.4",
     "description": "Windows10Manager Edition, easy to manage your Win10",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Windows10Manager-3.2.3.7z",
-    "hash": "888e8ff609e5998f6a60a86d44b449368a4b42622794f21db32c4dfbe8c5c8b4",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Windows10Manager-3.2.4.7z",
+    "hash": "e09cc95a886f2b1801f8eaf48f7150adcbe33e781c8170699d962e0849ec61ea",
     "extract_dir": "Windows10Manager",
     "bin": "Windows10Manager.exe",
     "shortcuts": [
@@ -12,7 +12,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://masuit.com/1253/history",
-        "re": " v([\\d.]+)"
+        "encode": "UTF-8",
+        "url": "https://www.mpyit.com/windows10manager.html",
+        "re": "Windows10Manager\\S([\\d.]+)"
     }
 }
