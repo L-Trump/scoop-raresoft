@@ -3,9 +3,9 @@
     "description": "IObit Uninstaller Pro Edition, A convenient and powerful tool to manage your installed program",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/IObit_Uninstaller_Portable_9.4.0.12.7z",
-    "hash": "dc889f21c9479a96b946aa4b9cba6ed9c185be7d2a8308514771a38bc138ad18",
+    "hash": "5b78175d01f6a5ae9eeaba444914e0792583b3a29afe513cbeb90771eb84a717",
     "installer": {
-        "script": "sudo cmd /c \'\"$dir\\Enable&DisableMonitor.bat\"\'"
+        "script": "sudo cmd /c \"$dir\\EnableDisableMonitor.bat\""
     },
     "persist": ["Data"],
     "bin": [
@@ -20,7 +20,7 @@
             "IObit Uninstaller Pro"
         ],
         [
-            "Enable&DisableMonitor.bat",
+            "EnableDisableMonitor.bat",
             "关闭&启用监控程序"
         ]
     ],
