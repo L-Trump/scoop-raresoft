@@ -13,11 +13,11 @@
     "shortcuts": [
         [
             "Bandicam_Portable.exe",
-            "班迪录屏"
+            "..\\Bandicam\\班迪录屏"
         ],
         [
             "App\\Bandicam\\bdfix.exe",
-            "Bandifix"
+            "..\\Bandicam\\Bandifix"
         ]
     ],
     "checkver": {
