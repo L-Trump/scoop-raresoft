@@ -8,7 +8,7 @@
         "recoverit.exe"
     ],
     "shortcuts": [
-        ["recoverit.exe","万兴数据恢复"]
+        ["recoverit.exe","..\\Wondershare\\万兴数据恢复"]
     ],
     "checkver": {
         "url": "https://www.mpyit.com/wondersharerecoverit.html",
