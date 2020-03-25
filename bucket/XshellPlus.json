@@ -24,11 +24,11 @@
     "shortcuts": [
         [
             "Xshell.exe",
-            "Xshell"
+            "..\\XShell\\Xshell Plus"
         ],
         [
             "Xftp.exe",
-            "Xftp"
+            "..\\XShell\\Xftp"
         ]
     ],
     "checkver": {
