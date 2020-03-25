@@ -5,7 +5,7 @@
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/IObit_Uninstaller_Portable_9.4.0.12.7z",
     "hash": "dc889f21c9479a96b946aa4b9cba6ed9c185be7d2a8308514771a38bc138ad18",
     "installer": {
-        "script": "sudo cmd /c \"\'$dir\\Enable&DisableMonitor.bat\"\'"
+        "script": "sudo cmd /c \"\'$dir\\Enable&DisableMonitor.bat\'\""
     },
     "persist": ["Data"],
     "bin": [
