@@ -11,7 +11,7 @@
         "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "shortcuts": [
-        ["Wondershare Filmora9.exe","万兴神剪手"]
+        ["Wondershare Filmora9.exe","..\\Wondershare\\万兴神剪手"]
     ],
     "checkver": {
         "url": "https://www.mpyit.com/filmora.html",
