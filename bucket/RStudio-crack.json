@@ -19,7 +19,7 @@
         ["Data","RStudio_Data"]
     ],
     "checkver": {
-        "url": "https://www.ghpym.com/rstudio.html",
-        "re": "v([\\d.]+)"
+        "url": "https://www.mpyit.com/rstudio.html",
+        "re": "「([\\d.]+)」"
     }
 }
