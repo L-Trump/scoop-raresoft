@@ -17,7 +17,7 @@
         ]
     ],
     "shortcuts": [
-        ["YoudaoDict.exe","有道词典"]
+        ["YoudaoDict.exe","..\\有道词典"]
     ],
     "checkver": {
         "url": "https://www.mpyit.com/youdaocidian.html",
