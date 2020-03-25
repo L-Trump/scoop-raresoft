@@ -1,0 +1,21 @@
+{
+    "version": "9.3.7.1",
+    "description": "Wondershare Filemora Edition, 万兴神剪手",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wondershare_Filemora_9.3.7.1.7z",
+    "hash": "b1270aed930e381c8b2a5a4d38c665db5a9701985d4c68309422b162f97778c7",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "shortcuts": [
+        ["Wondershare Filmora9.exe","万兴神剪手"]
+    ],
+    "checkver": {
+        "url": "https://www.mpyit.com/filmora.html",
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
+    }
+}
