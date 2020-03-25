@@ -18,7 +18,8 @@
         ["VideoConverterUltimate.exe","Wondershare Uniconverter"]
     ],
     "checkver": {
-        "url": "https://masuit.com/1746/history",
-        "re": "v([\\d.]+)"
+        "url": "https://www.mpyit.com/wxqngszhq.html",
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
     }
 }
