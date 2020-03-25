@@ -20,6 +20,7 @@
     ],
     "checkver": {
         "url": "https://www.mpyit.com/rstudio.html",
-        "re": "「([\\d.]+)」"
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
     }
 }
