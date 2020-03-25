@@ -25,7 +25,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.ghpym.com/iobituninstaller.html",
-        "re": "Pro ([\\d.]+)"
+        "url": "https://www.mpyit.com/iobituninstaller.html",
+        "encode": "UTF-8",
+        "re": "Pro\\S([\\d.]+)"
     }
 }
