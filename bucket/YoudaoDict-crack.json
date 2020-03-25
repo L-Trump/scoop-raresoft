@@ -1,0 +1,27 @@
+{
+    "version": "8.9.0",
+    "description": "Youdao Dictation, A powerful tool to look up words and translate sentences",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict-8.9.0.7z",
+    "hash": "db6dd76c8b04db2561b579fef1540a3d127abab810d07e8bb0b0b32cfe6cd71f",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        [
+            "YoudaoDict.exe",
+            "youdao"
+        ]
+    ],
+    "shortcuts": [
+        ["YoudaoDict.exe","有道词典"]
+    ],
+    "checkver": {
+        "url": "https://www.mpyit.com/youdaocidian.html",
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)」"
+    }
+}
