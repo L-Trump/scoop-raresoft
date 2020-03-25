@@ -14,7 +14,7 @@
         "PDFelement.exe"
     ],
     "shortcuts": [
-        ["PDFelement.exe","万兴PDF专家"]
+        ["PDFelement.exe","..\\Wondershare\\万兴PDF专家"]
     ],
     "checkver": {
         "url": "https://www.mpyit.com/pdfelement.html",
