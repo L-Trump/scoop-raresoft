@@ -48,6 +48,9 @@
 | WondershareUniconverter | 万兴万能格式转化器 |
 | MasterLu | 鲁大师绿色去广告单文件版 |
 | TeamViewer | 著名的远程控制软件，运维协作工具 |
+| AoMeiPartition | 傲梅分区助手，分区工具 |
+| CleanMyPC | 简洁高效的电脑清理工具 |
+| DriverTalent | 驱动人生国际版，干净清洁无广告 |
 
 ***To Be Continue~***
 
