@@ -4,7 +4,7 @@
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Luminar_4.2.0.5577_Portable.7z",
     "hash": "226c3cad525fecbe79e20cde7d511c34c701d81a098eb0733a5d788edb40aca4",
     "shortcuts": [
-        ["Luminar4Portable.exe",".Luminar4"]
+        ["Luminar4Portable.exe","Luminar4"]
     ],
     "notes": [
         "It's suggested to add these lines to etc\\hosts",
