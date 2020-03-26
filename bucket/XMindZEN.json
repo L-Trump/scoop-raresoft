@@ -2,12 +2,12 @@
     "version": "10.1.0",
     "description": "XMind Zen是个操作简便的思维导图工具，帮助你专注于思维导图本身",
     "architecture": {
-        "64bit": {
-            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN-64bit.7z",
-            "hash": "76f3ec307aa92635cb5d7877ebcdf2c772c569c8095918fa16757e2bab31c65e"
-        },
         "32bit": {
             "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN-32bit.7z",
+            "hash": "76f3ec307aa92635cb5d7877ebcdf2c772c569c8095918fa16757e2bab31c65e"
+        },
+        "64bit": {
+            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN-64bit.7z",
             "hash": "8e241dac65fd9a4aafe356bf32874227c606cf993ca83bb40bc9f644af53b197"
         }
     },
