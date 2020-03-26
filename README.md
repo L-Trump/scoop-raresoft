@@ -53,6 +53,7 @@
 | DriverTalent | 驱动人生国际版，干净清洁无广告 |
 | MusicTools | 付费无损音乐下载器 |
 | Luminar | Luminar是一个图像处理软件，自动化处理能力强 |
+| WinCam | WinCam是一款国外优秀的录像软件，小巧易用 |
 
 ***To Be Continue~***
 

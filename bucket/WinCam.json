@@ -1,0 +1,30 @@
+{
+    "version": "1.9",
+    "description": "WinCam是一款国外优秀的录像软件，小巧易用，功能也不差",
+    "architecture": {
+        "64bit": {
+            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinCam_1.9_64bit.7z",
+            "hash": "4641ba35809550fa0002bb7cd5fa7e9fabb092210d735b32fe85b672f4cf9e44"
+        },
+        "32bit": {
+            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinCam_1.9_32bit.7z",
+            "hash": "8f690225eb6e4d2f03c9df130c87efb8a7f2b97053d821907074bfdd90416732"
+        }
+    },
+    "depends": "sudo",
+    "extract_dir": "WinCam",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setCHS.bat\""
+    },
+    "bin": [
+        "WinCam.exe"
+    ],
+    "shortcuts": [
+        ["WinCam.exe","WinCam"]
+    ],
+    "checkver": {
+        "url": "https://www.ghpym.com/wincam.html",
+        "encode": "UTF-8",
+        "re": "\\)v([\\d.]+)"
+    }
+}
