@@ -51,6 +51,7 @@
 | AoMeiPartition | 傲梅分区助手，分区工具 |
 | CleanMyPC | 简洁高效的电脑清理工具 |
 | DriverTalent | 驱动人生国际版，干净清洁无广告 |
+| MusicTools | 付费无损音乐下载器 |
 
 ***To Be Continue~***
 

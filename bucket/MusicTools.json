@@ -1,0 +1,21 @@
+{
+    "version": "1.8.0.0",
+    "description": "付费无损音乐下载工具",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/MusicTools_v1.8.0.0.zip",
+    "extract_dir": "MusicTools",
+    "hash": "1150d04a6124d43a741bbbc4214971644ed2837951de799a0116e20d8210817d",
+    "bin": [
+        "MusicTools.exe"
+    ],
+    "shortcuts": [
+        [
+            "MusicTools.exe",
+            "MusicTools"
+        ]
+    ],
+    "checkver": {
+        "url": "https://masuit.com/1772/history",
+        "encode": "UTF-8",
+        "re": "v([\\d.]+)"
+    }
+}
