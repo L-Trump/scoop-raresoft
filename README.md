@@ -57,6 +57,7 @@
 | Xftp | 好用的FTP/SFTP连接工具 |
 | XshellPlus | 包含了Xshell与Xftp |
 | Xmanager | 除了Xshellplus外，还包含了Xlpd等多种工具 |
+| TotalCommander | 这是功能强大的全能Windows文件管理器 |
 
 ***To Be Continue~***
 
