@@ -1,0 +1,30 @@
+{
+    "version": "6.0.0193",
+    "description": "Xshell，连接SSH/Telnet等协议",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xshell_6.0.0193.7z",
+    "hash": "975dc55fee081292ad6c98f85b0f632404ba2e2526e5ecf04a6ef55e0e36df25",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        [
+            "Xshell.exe",
+            "Xshell"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Xshell.exe",
+            "..\\XShell\\Xshell"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mpyit.com/xshell.html",
+        "encode": "UTF-8",
+        "re": "Xshell ([\\d.]+)"
+    }
+}
