@@ -1,0 +1,66 @@
+{
+    "version": "6.0.0028",
+    "description": "Xmanager Power Suit，包含Xftp, Xshell, 支持多种协议",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xmanager_Power_Suite_6.0.0028.7z",
+    "hash": "3a5c96b13cf54642c1779f1408c4ae2ec5d404676309d760082697839c7d3f23",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        [
+            "Xshell.exe",
+            "Xshell"
+        ],
+        [
+            "Xbrowser.exe",
+            "Xmanager"
+        ],
+        [
+            "Xftp.exe",
+            "Xftp"
+        ],
+        [
+            "Xlpd.exe",
+            "Xlpd"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Xshell.exe",
+            "..\\Xmanager\\Xshell"
+        ],
+        [
+            "Xbrowser.exe",
+            "..\\Xmanager\\Xmanager"
+        ],
+        [
+            "Xftp.exe",
+            "..\\Xmanager\\Xftp"
+        ],
+        [
+            "Xlpd.exe",
+            "..\\Xmanager\\Xlpd"
+        ],
+        [
+            "Xconfig.exe",
+            "..\\Xmanager\\Xconfig"
+        ],
+        [
+            "Xstart.exe",
+            "..\\Xmanager\\Xstart"
+        ],
+        [
+            "Xmanager.exe",
+            "..\\Xmanager\\Xmanager - Passive"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mpyit.com/xshell.html",
+        "encode": "UTF-8",
+        "re": "Xmanager Power Suite ([\\d.]+)"
+    }
+}
