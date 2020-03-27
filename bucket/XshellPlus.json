@@ -1,10 +1,9 @@
 {
-    "version": "6.0.0.26",
-    "description": "XshellPlus，SSH/SFTP/Telnet等连接工具",
+    "version": "6.0.0028",
+    "description": "XshellPlus，包含Xshell与Xftp，连接SSH/SFTP/Telnet等协议",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XshellPlus-6.0.0.26-crack.7z",
-    "hash": "b58ef86fac8ae995a2e224ffb1ab43085d89d041dcd5f6db0edd22a82bf697f2",
-    "extract_dir": "XshellPlus",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XshellPlus_6.0.0028.7z",
+    "hash": "a9379e4a9f7d82036ab857a18243f66a9c0de536f73ffab122082b437baa584e",
     "installer": {
         "script": "sudo cmd /c \"$dir\\setup.bat\""
     },
@@ -24,15 +23,16 @@
     "shortcuts": [
         [
             "Xshell.exe",
-            "..\\XShell\\Xshell Plus"
+            "..\\XShellPlus\\Xshell"
         ],
         [
             "Xftp.exe",
-            "..\\XShell\\Xftp"
+            "..\\XShellPlus\\Xftp"
         ]
     ],
     "checkver": {
-        "url": "https://masuit.com/178/history",
-        "re": " v([\\d.]+)"
+        "url": "https://www.mpyit.com/xshell.html",
+        "encode": "UTF-8",
+        "re": "XshellPlus ([\\d.]+)"
     }
 }
