@@ -35,7 +35,6 @@
 | NtrQQ | 精简绿化版QQ，有本地会员、防撤回等功能 |
 | AdvancedInstaller | 好用的应用打包、重打包工具 |
 | KuwoMusic | 酷我牛逼，基本共享酷狗和QQ音乐的曲库 |
-| XshellPlus | 好用的SSH/Telnet/Xftp连接工具 |
 | BandiCam | 班迪录屏，游戏录屏神器 |
 | WinRAR | 最好用的压缩软件 |
 | RStudio | 强大的数据恢复软件，支持多种文件系统 |
@@ -54,6 +53,10 @@
 | MusicTools | 付费无损音乐下载器 |
 | Luminar | Luminar是一个图像处理软件，自动化处理能力强 |
 | WinCam | WinCam是一款国外优秀的录像软件，小巧易用 |
+| Xshell | 好用的SSH/Telnet等协议连接工具 |
+| Xftp | 好用的FTP/SFTP连接工具 |
+| XshellPlus | 包含了Xshell与Xftp |
+| Xmanager | 除了Xshellplus外，还包含了Xlpd等多种工具 |
 
 ***To Be Continue~***
 
