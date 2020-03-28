@@ -1,22 +1,21 @@
 {
     "version": "1.5.5.117",
     "description": "腾讯课堂客户端，无特殊功能",
-    "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/TXEdu_1.5.5.117.7z",
-    "hash": "7c7ad3ba47704c9d4b22845c0f9eb8269ac668dd02e8b584826570c8074e1dbb",
+    "hash": "365ef265aff61cb0d6c7f3d57acc6896ddc4e6ff854b2e8c39f3380d6fd231d1",
     "bin": [
         [
-            "TXEdu.exe",
+            "bin\\TXEdu.exe",
             "txedu"
         ]
     ],
     "shortcuts": [
         [
-            "TXEdu.exe",
+            "bin\\TXEdu.exe",
             "..\\腾讯软件\\腾讯课堂"
         ],
         [
-            "TXEduLite.exe",
+            "bin\\TXEduLite.exe",
             "..\\腾讯软件\\腾讯课堂Lite"
         ]
     ],
