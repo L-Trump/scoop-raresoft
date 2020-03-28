@@ -4,7 +4,7 @@
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/CCMaker-1.3.9.exe",
     "hash": "c7df723a59df60ba3c1dc00972e0f48f70b9df474243caded97be9047ed103de",
     "installer":{
-        "script": "Move-Item $dir\\*.exe CCMaker.exe"
+        "script": "Move-Item $dir\\*.exe $dir\\CCMaker.exe"
     },
     "shortcuts": [
         ["CCMaker.exe","CCMaker"]
