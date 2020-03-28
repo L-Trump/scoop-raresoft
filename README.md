@@ -60,6 +60,8 @@
 | TotalCommander | 这是功能强大的全能Windows文件管理器 |
 | CCMaker | CCMaker可以说是Adobe杀手，支持下载、安装、激活Adobe软件 |
 | SpeedPanX | 速盘极速版，快速下载百度云盘文件 |
+| EasyU | 这是VIP版的油漆桶，是唯一一个清洁干净的PE制作工具 |
+| ActivePresenter | 十分好用的演示/教学工具 |
 
 ***To Be Continue~***
 
