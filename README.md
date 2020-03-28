@@ -58,6 +58,7 @@
 | XshellPlus | 包含了Xshell与Xftp |
 | Xmanager | 除了Xshellplus外，还包含了Xlpd等多种工具 |
 | TotalCommander | 这是功能强大的全能Windows文件管理器 |
+| CCMaker | CCMaker可以说是Adobe杀手，支持下载、安装、激活Adobe软件 |
 
 ***To Be Continue~***
 
