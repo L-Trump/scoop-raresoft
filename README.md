@@ -10,6 +10,9 @@
         又一个 <a href="https://github.com/lukesampson/scoop">Scoop</a> 的软件仓库（<a href="https://github.com/lukesampson/scoop/wiki/Buckets">bucket</a>）
     </p>
     <p align="center">
+        <a href="https://github.com/L-Trump/Scoop-CHS">Scoop中文版</a>
+    </p>
+    <p align="center">
         <strong>本仓库中软件均通过网络收集，仅供学习研究与交流，请在24h内删除，严禁传播</strong>
     </p>
 </div>
