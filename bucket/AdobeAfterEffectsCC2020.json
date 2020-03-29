@@ -13,13 +13,13 @@
     },
     "bin": [
         [
-            "AfterFX.exe",
+            "Support Files\\AfterFX.exe",
             "ae"
         ]
     ],
     "shortcuts": [
         [
-            "AfterFX.exe",
+            "Support Files\\AfterFX.exe",
             "..\\Adobe\\After Effects"
         ]
     ],
