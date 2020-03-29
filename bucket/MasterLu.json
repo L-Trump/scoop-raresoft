@@ -1,24 +1,24 @@
 {
-    "version": "5.1020.1145",
-    "description": "鲁大师绿色单文件去广告版",
-    "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Master_Lu_5.1020.1145.314.exe",
-    "hash": "222e8ee12acaecfdc42fd7240fd55111ced67123e0ff288bea1f7bcf6ec3bedb",
-    "installer":{
-        "script": "Move-Item $dir\\*.exe $dir\\MasterLu.exe"
-    },
+    "version": "5.1020.1155",
+    "description": "鲁大师绿色去广告版",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/ludashi_5.1020.1155.7z",
+    "hash": "11752d67e063a9a0f558ab9b804fb7aff07398eeb56ba8835e1a49d4c41e2c6c",
+    "extract_dir": "ludashi",
     "bin": [
         [
-            "MasterLu.exe",
+            "computerz_cn.exe",
             "masterlu"
         ]
     ],
     "shortcuts": [
-        ["MasterLu.exe","..\\鲁大师"]
+        [
+            "computerz_cn.exe",
+            "..\\鲁大师"
+        ]
     ],
     "checkver": {
-        "url": "https://www.mpyit.com/ludashi.html",
+        "url": "https://www.ghpym.com/ludashi.html",
         "encode": "UTF-8",
-        "re": "「([\\d.]+)」"
+        "re": "鲁大师v([\\d.]+)"
     }
 }
