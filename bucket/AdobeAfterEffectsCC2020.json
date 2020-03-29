@@ -2,6 +2,7 @@
     "version": "17.0.5.16",
     "homepage": "https://www.mpyit.com/aftereffects2020xx.html",
     "description": "AE，后期制作神器",
+    "usecurrent": "false",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AdobeAfterEffects_2020_17.0.5.16_20200317.7z",
     "hash": "c0712c92b2e33ff77049162e2505051cd5f6ea401b3de782c930c999536a1096",
