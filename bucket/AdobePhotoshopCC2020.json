@@ -1,0 +1,30 @@
+{
+    "version": "21.1.1.121",
+    "homepage": "https://www.mpyit.com/photoshopcc2020lv.html",
+    "description": "Photoshop应该是大家都耳熟能详的软件了，这个是精简版本",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AdobePhotoshop_2020_21.1.1.121_20200328.7z",
+    "hash": "026a8661c384537321cec61e172993867ea2f16c6c9895bda13aef024b396746",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        [
+            "Photoshop.exe",
+            "Photoshop"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "photoshop.exe",
+            "..\\Adobe\\Photoshop"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
+    }
+}
