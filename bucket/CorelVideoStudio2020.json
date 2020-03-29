@@ -1,0 +1,24 @@
+{
+    "version": "23.0.1.391",
+    "homepage": "https://www.mpyit.com/hshy2020lv.html",
+    "description": "会声会影，操作比Pr简单，介于Pr和...爱剪辑之间",
+    "extract_dir": "会声会影 2020 旗舰版 SP1 23.0.1.391 中文 绿色 特别版",
+    "url": "http://xqh.ma:33001/189/CorelVideoStudio2020_Ultimate.7z",
+    "hash": "dc9268050748af7cefecd2e8b6ef60d14cfd9211e0fffdeadae46f436d6e4e94",
+    "bin": [
+        [
+            "vstudio.exe",
+            "vstudio"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "vstudio.exe",
+            "..\\Corel\\会声会影"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
+    }
+}
