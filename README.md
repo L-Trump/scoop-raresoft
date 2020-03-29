@@ -18,7 +18,24 @@
 </div>
 
 
+关于报毒
+-----
 
+由于本仓库收录的软件均为**已破解**版本，因此报毒在所难免，请将Scoop安装目录，默认为`用户目录/scoop`添加到杀毒软件的信任名单中。
+
+Windows Defender快速添加信任名单：Powershell管理员权限执行
+
+```powershell
+Add-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
+```
+
+如果你要撤销此操作：
+
+```powershell
+Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
+```
+
+**如果对仓库中软件的安全性有疑问，请不要使用**
 
 特色软件
 ------------
@@ -65,6 +82,7 @@
 | SpeedPanX | 速盘极速版，快速下载百度云盘文件 |
 | EasyU | 这是VIP版的油漆桶，是唯一一个清洁干净的PE制作工具 |
 | ActivePresenter | 十分好用的演示/教学工具 |
+| MirillisAction | 又是一款超高清屏幕录像工具 |
 
 ***To Be Continue~***
 
@@ -87,18 +105,12 @@ scoop bucket add raresoft https://github.com/L-Trump/scoop-raresoft
 scoop install raresoft/<软件名>
 ```
 
-**2. 关于报毒**
-
-由于本仓库收录的软件均为**已破解**版本，因此报毒在所难免，请将Scoop安装目录，默认为`用户目录/scoop`添加到杀毒软件的信任名单中。
-
-**如果对仓库中软件的安全性有疑问，请不要使用**
-
-**3、为什么有时候卸载错误**
+**2、为什么有时候卸载错误**
 
 如有时候会提示```ERROR Couldn't remove 'D:\ScoopApps\apps\Youdaodict-crack\8.9.0'; it may be in use.```
 
 这通常是因为进程占用引起的，可以重启后再次执行卸载命令，或者尝试关闭资源管理器后运行卸载命令。
 
-**4. 注意事项**
+**3. 注意事项**
 
 **本仓库中软件均通过网络收集，仅供学习研究与交流，请在24h内删除，严禁传播**
