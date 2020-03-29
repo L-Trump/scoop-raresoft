@@ -83,6 +83,7 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | EasyU | 这是VIP版的油漆桶，是唯一一个清洁干净的PE制作工具 |
 | ActivePresenter | 十分好用的演示/教学工具 |
 | MirillisAction | 又是一款超高清屏幕录像工具 |
+| VMwareWorkstation | 著名的虚拟机软件，虽然我现在用Hyper-V |
 
 ***To Be Continue~***
 
