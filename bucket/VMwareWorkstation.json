@@ -8,10 +8,10 @@
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/VMware_Workstation_15.5.2-15785246.7z",
     "hash": "7989ad71dee0d030946a2d05e0937307d008677ad17be4a26a12ada6cb0f89dd",
     "installer": {
-        "script": "sudo cmd /c \"$dir\\setup.bat\""
+        "script": "sudo cmd /c \"$dir\\setup.cmd\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+        "script": "sudo cmd /c \"$dir\\uninstall.cmd\""
     },
     "bin": [
         [
