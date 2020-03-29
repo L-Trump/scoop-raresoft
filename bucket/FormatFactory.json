@@ -7,13 +7,13 @@
     "shortcuts": [
         [
             "FormatFactory.exe",
-            "FormatFactory"
+            "格式工厂"
         ]
     ],
     "bin": [
         [
             "FormatFactory.exe",
-            "格式工厂"
+            "FormatFactory"
         ]
     ],
     "checkver": {
