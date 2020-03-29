@@ -5,8 +5,10 @@
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/MirillisActionPortable_4.4.0.7z",
     "hash": "9c07d034f4944fda19ec0cd548274a5c1a7a666f9ea2f66ee8687567fd238aab",
     "bin": [
-        "Action_Portable.exe",
-        "MAction"
+        [
+            "Action_Portable.exe",
+            "MAction"
+        ]
     ],
     "persist": "Data",
     "shortcuts": [
