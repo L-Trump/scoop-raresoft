@@ -1,0 +1,30 @@
+{
+    "version": "17.0.5.16",
+    "homepage": "https://www.mpyit.com/aftereffects2020xx.html",
+    "description": "AE，后期制作神器",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AdobeAfterEffects_2020_17.0.5.16_20200317.7z",
+    "hash": "3a38b5c1beefd9078d2eb845168246983ad0948a4f19e56f9c8d65ace69c7193",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        [
+            "AfterFX.exe",
+            "ae"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "AfterFX.exe",
+            "..\\Adobe\\After Effects"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
+    }
+}
