@@ -1,6 +1,7 @@
 {
     "version": "6.20.5300",
     "description": "Aida64 Extreme Edition. 电脑硬件信息查看工具，内容十分详细",
+    "homepage": "https://masuit.com/1290/history",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AIDA64.v6.20.5300.7z",
     "hash": "4cc2be7bfd5830610e12376dbdf66721526edc2cedc2d621baadc5f98e0ffbd5",
     "extract_dir": "AIDA64",

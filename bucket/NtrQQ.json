@@ -1,5 +1,6 @@
 {
     "version": "9.2.3.26683",
+    "homepage": "https://masuit.com/123",
     "description": "NtrQQ，本地会员、防撤回、IP查看....应有尽有",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQ-9.2.3.26683-NtrQQ.exe#dl.7z",
@@ -25,6 +26,7 @@
     ],
     "checkver": {
         "url": "https://masuit.com/123",
+        "encode": "UTF-8",
         "re": "QQ ([\\d.]+)"
     }
 }

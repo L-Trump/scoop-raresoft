@@ -1,5 +1,6 @@
 {
     "version": "1.9",
+    "homepage": "https://www.ghpym.com/wincam.html",
     "description": "WinCam是一款国外优秀的录像软件，小巧易用，功能也不差",
     "architecture": {
         "64bit": {

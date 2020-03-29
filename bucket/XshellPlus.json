@@ -1,6 +1,7 @@
 {
     "version": "6.0.0028",
     "description": "XshellPlus，包含Xshell与Xftp，连接SSH/SFTP/Telnet等协议",
+    "homepage": "https://www.mpyit.com/xshell.html",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XshellPlus_6.0.0028.7z",
     "hash": "a9379e4a9f7d82036ab857a18243f66a9c0de536f73ffab122082b437baa584e",

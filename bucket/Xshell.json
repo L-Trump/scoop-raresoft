@@ -1,6 +1,7 @@
 {
     "version": "6.0.0193",
     "description": "Xshell，连接SSH/Telnet等协议",
+    "homepage": "https://www.mpyit.com/xshell.html",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xshell_6.0.0193.7z",
     "hash": "975dc55fee081292ad6c98f85b0f632404ba2e2526e5ecf04a6ef55e0e36df25",

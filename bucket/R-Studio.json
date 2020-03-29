@@ -1,6 +1,7 @@
 {
     "version": "8.13.176051",
     "description": "数据恢复工具，特色是支持Linux、Mac的文件系统",
+    "homepage": "https://www.mpyit.com/rstudio.html",
     "url": "http://xqh.ma:33001/189/RStudio-8.13.176051.7z",
     "hash": "ccba7950b19725692d5a6f4441fa28cc6d37b94f3646a772c9bea912ddc15c74",
     "bin": [
