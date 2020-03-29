@@ -1,0 +1,30 @@
+{
+    "version": "13.0.4.39",
+    "homepage": "https://www.mpyit.com/audition2020lv.html",
+    "description": "Adobe Audition，我最喜欢用的音频编辑软件",
+    "depends": "sudo",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AdobeAudition2020_13.0.4.39_20200317.7z",
+    "hash": "026a8661c384537321cec61e172993867ea2f16c6c9895bda13aef024b396746",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "bin": [
+        [
+            "Adobe Audition.exe",
+            "Audition"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Adobe Audition.exe",
+            "..\\Adobe\\Audition"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "「([\\d.]+)"
+    }
+}
