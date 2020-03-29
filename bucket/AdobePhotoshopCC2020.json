@@ -4,7 +4,7 @@
     "description": "Photoshop应该是大家都耳熟能详的软件了，这个是精简版本",
     "depends": "sudo",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AdobePhotoshop_2020_21.1.1.121_20200328.7z",
-    "hash": "a85dcaa4d953bf71b95b96405c0245b03f072dfe1d5407f5b98dcf6b3eb5a60a",
+    "hash": "776634120d89a2510cf3e0030c07b6922165e4c88dfef2ba86231f11178f8597",
     "installer": {
         "script": "sudo cmd /c \"$dir\\setup.bat\""
     },
