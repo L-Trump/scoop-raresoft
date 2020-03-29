@@ -42,6 +42,10 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 
 | 软件 | 简介 |
 |:--------:|-------------|
+| Adobe AfterEffects | 会做特效的都是大佬..... |
+| Adobe Photoshop | PS相信很多人都用过或者听说过吧 |
+| Adobe Premiere Pro | Pr可以说占据了视频剪辑的半壁江山了 |
+| Adobe Audition | 我最喜欢用的音频编辑软件 |
 | WinHex | 十分轻便好用的十六进制编辑器 |
 | GoldWave | 老牌音频剪辑软件，体积小，适合偶尔用一用 |
 | Windows10Manager | 功能强大，清理、个性化、系统修复、优化样样在行    |
@@ -84,6 +88,8 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | ActivePresenter | 十分好用的演示/教学工具 |
 | MirillisAction | 又是一款超高清屏幕录像工具 |
 | VMwareWorkstation | 著名的虚拟机软件，虽然我现在用Hyper-V |
+| FormatFactory | 格式工厂，我原来一直用这个进行格式转换 |
+
 
 ***To Be Continue~***
 
