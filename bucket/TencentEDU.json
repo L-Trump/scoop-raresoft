@@ -2,8 +2,8 @@
     "version": "1.5.5.117",
     "description": "腾讯课堂客户端，无特殊功能",
     "homepage": "https://ke.qq.com",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/TXEdu_1.5.5.117.7z",
-    "hash": "365ef265aff61cb0d6c7f3d57acc6896ddc4e6ff854b2e8c39f3380d6fd231d1",
+    "url": "http://pub.idqqimg.com/pc/misc/groupgift/fudao/pc/KeInstall_1.5.5.117_sign.exe#dl.7z",
+    "hash": "595f752666a22b3342350f9a8bac2425982cd70bb3c6bd0cfa1ccfee1edb2fe1",
     "bin": [
         [
             "bin\\TXEdu.exe",
@@ -23,6 +23,9 @@
     "checkver": {
         "url": "https://sas.qq.com/cgi-bin/ke_download_pcClient",
         "encode": "UTF-8",
-        "re": "KeInstall_([\\d.]+)"
+        "re": "(?<Downurl>http.*KeInstall_(?<version>[\\d.]+).*\\.exe)"
+    },
+    "autoupdate": {
+        "url": "$matchDownurl#dl.7z"
     }
 }
