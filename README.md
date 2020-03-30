@@ -91,7 +91,6 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | VMwareWorkstation | 著名的虚拟机软件，虽然我现在用Hyper-V |
 | FormatFactory | 格式工厂，我原来一直用这个进行格式转换 |
 
-
 ***To Be Continue~***
 
 疑问
