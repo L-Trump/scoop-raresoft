@@ -46,6 +46,7 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | Adobe Photoshop | PS相信很多人都用过或者听说过吧 |
 | Adobe Premiere Pro | Pr可以说占据了视频剪辑的半壁江山了 |
 | Adobe Audition | 我最喜欢用的音频编辑软件 |
+| CorelVideoStudio| 会声会影是几款专业向剪辑软件里面十分好操作的一种了 |
 | WinHex | 十分轻便好用的十六进制编辑器 |
 | GoldWave | 老牌音频剪辑软件，体积小，适合偶尔用一用 |
 | Windows10Manager | 功能强大，清理、个性化、系统修复、优化样样在行    |
