@@ -1,9 +1,9 @@
 {
-    "version": "16.7",
+    "version": "16.9",
     "description": "Advanced Installer.可以用来给软件打包，也可以用虚拟机进行重打包/解包",
-    "homepage": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AdvancedInstaller-16.7-crack.7z",
-    "hash": "7c2468dcaa14cd8ed49b354227c599e594b76ea4471174380b356db55c5ff89c",
+    "homepage": "http://www.carrotchou.blog/14870.html",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Advanced_Installer_16.9.0.exe#dl.7z",
+    "hash": "5ca8dd59a323691294162dc8b22faca6dc72f41689ca44d6c3edfc12af3ae324",
     "shortcuts": [
         [
             "bin\\x86\\advinst.exe",
@@ -11,7 +11,7 @@
         ]
     ],
     "checkver": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware",
-        "re": "AdvancedInstaller-([\\d.]+)-crack"
+        "encode": "UTF-8",
+        "re": "Advanced Installer v([\\d.]+)"
     }
 }
