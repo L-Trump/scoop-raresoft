@@ -1,9 +1,9 @@
 {
-    "version": "1.5.5.117",
+    "version": "1.5.5.127",
     "description": "腾讯课堂客户端，无特殊功能",
     "homepage": "https://ke.qq.com",
-    "url": "http://pub.idqqimg.com/pc/misc/groupgift/fudao/pc/KeInstall_1.5.5.117_sign.exe#dl.7z",
-    "hash": "595f752666a22b3342350f9a8bac2425982cd70bb3c6bd0cfa1ccfee1edb2fe1",
+    "url": "http://pub.idqqimg.com/pc/misc/groupgift/fudao/pc/KeInstall_1.5.5.127_sign.exe#dl.7z",
+    "hash": "391499361329887675576cd8022b526da0d78a8f110ea304a5bcfcfa3192125d",
     "bin": [
         [
             "bin\\TXEdu.exe",
