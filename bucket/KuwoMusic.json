@@ -13,8 +13,8 @@
     ],
     "installer": {
         "script": [
-            "Move-Item \"$dir\\Zlib.dll\" \"$dir\\Mrack.dll\"",
-            "Move-Item \"$dir\\Zlib_crack.dll\" \"$dir\\Zlib.dll\"",
+            "Move-Item \"$dir\\bin\\Zlib.dll\" \"$dir\\bin\\Mrack.dll\"",
+            "Move-Item \"$dir\\Zlib_crack.dll\" \"$dir\\bin\\Zlib.dll\"",
             "sudo cmd /c \"$dir\\install.bat\""
         ]
     },
