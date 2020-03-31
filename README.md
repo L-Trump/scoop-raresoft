@@ -90,6 +90,11 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | MirillisAction | 又是一款超高清屏幕录像工具 |
 | VMwareWorkstation | 著名的虚拟机软件，虽然我现在用Hyper-V |
 | FormatFactory | 格式工厂，我原来一直用这个进行格式转换 |
+| LanzouGUI | 蓝奏控制台GUI，尝试突破100M限制 |
+| LanzouCMD | 蓝奏控制台CMD，尝试突破100M限制 |
+| UltraEdit | UE是著名的文本、16进制等编辑器，据说非常好用 |
+| UltraCompare | 文本、应用比较工具，个人觉得不如BeyondCompare |
+| Youku | 优酷视频去广告可下载1080p |
 
 ***To Be Continue~***
 
