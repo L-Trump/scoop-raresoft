@@ -1,0 +1,19 @@
+{
+    "version": "0.2.2",
+    "description": "蓝奏云客户端，采用蓝奏云API项目使用PyQt5实现图形界面，完成蓝奏云的大部分功能。",
+    "homepage": "https://github.com/rachpt/lanzou-gui",
+    "hash": "ecc8503f7f2b6037bd9b3844ccc052e40fbd0ec725a4486b366a255790d6afbd",
+    "url": "https://github.com/rachpt/lanzou-gui/releases/download/v0.2.2/lanzou-gui_win64_v0.2.2_files.7z",
+    "extract_dir": "lanzou-gui_win64_v0.2.2_files",
+    "shortcuts": [
+        [
+            "main.exe",
+            "蓝奏云GUI控制台"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/rachpt/lanzou-gui/releases/download/v$version/lanzou-gui_win64_v$version_files.7z",
+        "extract_dir": "lanzou-gui_win64_v$version_files"
+    }
+}
