@@ -6,10 +6,10 @@
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/AutoCAD_2021_Lite.7z",
     "hash": "2e0ad4b01583d9781f813ebec296f5889801e27df1a949b9d007c0ee6f3131f7",
     "installer": {
-        "script": "sudo cmd /c \"start $dir\\setup.exe\""
+        "script": "sudo Start-Process -filepath \"$dir\\setup.exe\" -Wait"
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"start $dir\\setup.exe\""
+        "script": "sudo Start-Process -filepath \"$dir\\setup.exe\" -Wait"
     },
     "bin": [
         [
