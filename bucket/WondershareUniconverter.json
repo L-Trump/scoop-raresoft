@@ -1,10 +1,10 @@
 {
-    "version": "11.7.2.6",
+    "version": "11.7.3.1",
     "description": "万兴全能格式转换工具，速度很快",
-    "homepage": "https://www.mpyit.com/wxqngszhq.html",
+    "homepage": "https://www.423down.com/9267.html",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Uniconverter-11.7.2.6-crack.7z",
-    "hash": "4a90a690201b840e2c3ad89b54a1ab6c5e1a2a10558883ccf85a897beffbfbad",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WondershareUniconverter_v11.7.3.1.7z",
+    "hash": "9daf7feb353b9211e746afdb1f1a9487712e95e2b318f96952bbdbf4061e63ab",
     "extract_dir": "Uniconverter",
     "installer": {
         "script": "sudo cmd /c \"$dir\\setup.bat\""
@@ -13,14 +13,19 @@
         "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "bin": [
-        ["VideoConverterUltimate.exe","uniconverter"]
+        [
+            "VideoConverterUltimate.exe",
+            "uniconverter"
+        ]
     ],
     "shortcuts": [
-        ["VideoConverterUltimate.exe","..\\Wondershare\\万兴全能格式转化器"]
+        [
+            "VideoConverterUltimate.exe",
+            "..\\Wondershare\\万兴全能格式转化器"
+        ]
     ],
     "checkver": {
-        "url": "https://www.mpyit.com/wxqngszhq.html",
         "encode": "UTF-8",
-        "re": "「([\\d.]+)"
+        "re": " v([\\d.]+)"
     }
 }
