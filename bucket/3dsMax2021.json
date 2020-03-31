@@ -7,10 +7,10 @@
     "hash": "3bbbfdc7f574edb75ab2ece93ea4485775e68c25942f31399efed0090639da92",
     "extract_dir": "3ds Max 2021_64bit",
     "installer": {
-        "script": "sudo \"$dir\\3ds Max 2021安装.exe\""
+        "script": "sudo Start-Process \"start $dir\\3ds Max 2021安装.exe\" -Wait"
     },
     "uninstaller": {
-        "script": "sudo \"$dir\\3ds Max 2021安装.exe\""
+        "script": "sudo Start-Process \"$dir\\3ds Max 2021安装.exe\" -Wait"
     },
     "bin": [
         [
