@@ -1,0 +1,25 @@
+{
+    "version": "18.9.0.0",
+    "description": "WonderFox HD Video Converter Factory Pro，转换速度最快的高清视频转换软件，支持300多种视频格式转换，有视频转换器、视频下载、屏幕录像、GIF制作、照片转视频、分屏工具、铃声工具等功能。",
+    "homepage": "https://www.423down.com/9328.html",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/HD_Video_Converter_Factory_Pro_v18.9_Portable.7z",
+    "extract_dir": "WonderFox HD Video Converter Factory Pro Portable",
+    "hash": "d66ed6cf5c8b6721225e0db2acb96281a9770e11989b766a4dcd785303f5d8e9",
+    "bin": [
+        [
+            "HDVideoConverterFactoryProPortable.exe",
+            "hdvideoconverter"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "HDVideoConverterFactoryProPortable.exe",
+            "HD Video Converter Factory Pro"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "HD Video Converter Factory Pro ?([\\d.]+)"
+    }
+}
