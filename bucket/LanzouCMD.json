@@ -6,10 +6,10 @@
     "persist": "user.dat",
     "url": "https://github.com/zaxtyson/LanZouCloud-CMD/releases/download/v2.4.2/lanzou-cmd_x64_v2.4.2.exe#dl.7z",
     "extract_dir": "lanzou-cmd",
-    "bin": [
+    "shortcuts": [
         [
             "lanzou-cmd.exe",
-            "lanzoucmd"
+            "蓝奏云CMD控制台"
         ]
     ],
     "checkver": "github",
