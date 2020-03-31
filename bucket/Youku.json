@@ -1,0 +1,31 @@
+{
+    "version": "7.9.6.3271",
+    "description": "绿色优酷PC客户端，免费畅享蓝光1080P，支持极清4K、流光HDR高品质，有暗黑皮肤、一键追剧、边下边看、视觉增强、视频转码、GIF录制等功能。优酷视频，最大特色是有大量修复版经典高清电影和TVB港台剧。",
+    "homepage": "https://www.423down.com/7164.html",
+    "depends": "sudo",
+    "extract_dir": "YoukuClient",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Youku_v7.9.6.3271_Noad.7z",
+    "hash": "7ae3aa7fa1153e435523ea6fca0fb348153a2e7bee2b16fba2d43334da72ee3a",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+    },
+    "shortcuts": [
+        [
+            "YoukuDesktop.exe",
+            "..\\优酷视频"
+        ]
+    ],
+    "bin": [
+        [
+            "YoukuDesktop.exe",
+            "youku"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "v([\\d.]+)"
+    }
+}
