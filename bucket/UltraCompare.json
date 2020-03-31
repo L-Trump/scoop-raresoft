@@ -1,0 +1,31 @@
+{
+    "version": "21.10.0.4",
+    "description": "UltraCompare，简称”UES”，著名软件商 IDM Inc. 开发，是一款对文件内容进行比较的工具。",
+    "homepage": "https://www.423down.com/8674.html",
+    "depends": "sudo",
+    "extract_dir": "UltraCompare",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/UltraCompare_Professional_v21.10.0.4_x64_CHS.7z",
+    "hash": "1a50c026d637e33bce2859c7c16be14701531718400e99d463fdc2a866a62a79",
+    "installer": {
+        "script": "sudo cmd /c \"$dir\\addMenu.bat\""
+    },
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\addMenu.bat\""
+    },
+    "shortcuts": [
+        [
+            "uc.exe",
+            "UltraCompare"
+        ]
+    ],
+    "bin": [
+        [
+            "uc.exe",
+            "uc"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "v([\\d.]+)"
+    }
+}
