@@ -1,10 +1,9 @@
 {
-    "version": "5.1020.1155",
-    "homepage": "https://www.ghpym.com/ludashi.html",
+    "version": "5.1020.1160",
+    "homepage": "https://www.423down.com/3732.html",
     "description": "鲁大师绿色去广告版",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/ludashi_5.1020.1155.7z",
-    "hash": "11752d67e063a9a0f558ab9b804fb7aff07398eeb56ba8835e1a49d4c41e2c6c",
-    "extract_dir": "ludashi",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/MasterLu_v5.1020.1160.exe#/dl.7z",
+    "hash": "f9cf8ce05e0435ebe0620defdcd8abda3170d76ea2e1cbf5df8c03b58d04968e",
     "bin": [
         [
             "computerz_cn.exe",
@@ -18,8 +17,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.ghpym.com/ludashi.html",
         "encode": "UTF-8",
         "re": "鲁大师v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/MasterLu_v$version.exe#/dl.7z"
     }
 }
