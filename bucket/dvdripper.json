@@ -12,14 +12,14 @@
     ],
     "bin": [
         [
-            "VideoConverterFactoryPro.exe",
-            "hdvideoconverter"
+            "DVDRipperPro.exe",
+            "DVDRipper"
         ]
     ],
     "shortcuts": [
         [
-            "VideoConverterFactoryPro.exe",
-            "HD Video Converter Factory Pro"
+            "DVDRipperPro.exe",
+            "DVD Ripper Pro"
         ]
     ],
     "checkver": {
