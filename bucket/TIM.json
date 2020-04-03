@@ -7,10 +7,10 @@
     "extract_dir": "TIM",
     "hash": "568eb3178bc99ede6be158485101f313d562cab420db4d1e01c27c1d082eb96e",
     "installer": {
-        "script": "sudo cmd /c \"$dir\\!绿化.bat\""
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\!卸载.bat\""
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "bin": [
         [
