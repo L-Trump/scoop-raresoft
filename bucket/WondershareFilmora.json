@@ -1,31 +1,16 @@
 {
-    "version": "9.4.1",
+    "version": "9.4.1.4",
     "description": "万兴神剪手，天知道万兴为什么做了这么多奇奇怪怪的东西",
-    "homepage": "https://filmora.wondershare.com",
+    "homepage": "https://www.423down.com/9357.html",
     "depends": "sudo",
-    "url": [
-        "http://download.wondershare.com/cbs_down/filmora_64bit_full846.exe",
-        "http://xqh.ma:33001/ltrump-onedrive/raresoftware/filmora_setup.bat",
-        "http://xqh.ma:33001/ltrump-onedrive/raresoftware/filmora_uninstall.bat",
-        "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Filmora_crack.exe"
-    ],
-    "hash": [
-        "c8a68bc15aa1c7a9f32587860e7408b81415c5275ddb98b9510821e7d8fadee0",
-        "33473e47d7ad2e1439f553246a3de4a14360d5067a5f7eabaa0f20b4c687bea3",
-        "f1384e2f596fab576bf7e69600f6ea68a22c3d7aa3bb1dba94871c9b5b18e33c",
-        "00a21609cebb18a05682ad71e27ffbf484ab7598e23f9be59bbecd543dd903f2"
-    ],
-    "innosetup": true,
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wondershare_Filemora_9.4.1.4.7z",
+    "hash": "0e8d1ab432c9238f3d822fc16769a304687214a291c45e3b1da5b19a205e2d3c",
+    "extract_dir": "Filmora",
     "installer": {
-        "script": [
-            "sudo cmd /c \"$dir\\filmora_setup.bat\"",
-            "sudo reg add \"HKLM\\SOFTWARE\\Classes\\WFPFile\" /f /v Version /d \"$version\" >NUL 2>NUL",
-            "sudo reg add \"HKLM\\Software\\Wow6432Node\\Wondershare\\Wondershare Filmora\" /f /v Version /d \"$version\" >NUL 2>NUL",
-            "sudo Start-Process -filepath \"$dir\\Filemora_crack.exe\" -ArgumentList \"/silent\" -Wait"
-        ]
+        "script": "sudo cmd /c \"$dir\\setup.bat\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\filmora_uninstall.bat\""
+        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
     "shortcuts": [
         [
@@ -34,11 +19,10 @@
         ]
     ],
     "checkver": {
-        "url": "http://cbs.wondershare.com/go.php?m=upgrade_info&pid=846&version=10.0&email=",
         "encode": "UTF-8",
-        "re": "<Version>([\\d.]+)</Version>"
+        "re": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://ssl-download.wondershare.com/filmora_full846.exe"
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wondershare_Filemora_$version.7z"
     }
 }
