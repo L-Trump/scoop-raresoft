@@ -68,12 +68,14 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | HDVideoConverter | 又是一款视频格式转化工具，据说速度很快 |
 | IDM | Internet Download Manager的多线程下载是真的牛逼！|
 | IObitUninstaller | 快捷的应用管理工具，快速安装/卸载/清理残留 |
+| iQiyi | 爱奇艺去广告绿色客户端 |
 | KuwoMusic | 酷我牛逼，基本共享酷狗和QQ音乐的曲库 |
 | LanzouCMD | 蓝奏控制台CMD，尝试突破100M限制 |
 | LanzouGUI | 蓝奏控制台GUI，尝试突破100M限制 |
 | Luminar | Luminar是一个图像处理软件，自动化处理能力强 |
 | MasterLu | 鲁大师绿色去广告单文件版 |
 | MirillisAction | 又是一款超高清屏幕录像工具 |
+| MrOtter | Mr.Otter 是一款整合了 200+ 垂直网站内容的新式搜索引擎 |
 | MusicTools | 付费无损音乐下载器 |
 | NtrQQ | 精简绿化版QQ，有本地会员、防撤回等功能 |
 | PDFAntiCopy | PDF防盗取版权保护工具 |
