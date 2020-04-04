@@ -2,7 +2,7 @@
     "version": "1.8.3",
     "homepage": "https://store.serif.com/zh-cn/update/windows/photo/1/",
     "description": "Affinity Photo 是英国 Serif 公司历时5年开发的一款强大的图像处理软件，最初只有MAC版，软件推出后获得用户的一致好评，2015年官方在用户的热切期盼下终于推出Windows版。Serif 公司表示他们采用了比 Adobe 更先进的算法，声称可以叫板 PhotoShop，毕竟 PhotoShop 是基于30年前的电脑技术构筑起来，而那时根本未能预计今日电脑的科技，所以 Affinity Photo 更适用此时代而效能更高，据开发商介绍，这是最快速、最顺畅、最精准的专业修图软件。",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/affinity-photo-1.8.3.exe",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/affinity-photo-1.8.3.exe#dl.7z",
     "hash": "ab63bbfcef9b97a4a4ef6d28a74c82743ca8880b0adcfe527301804ef8cfc558",
     "bin": [
         [
@@ -21,7 +21,7 @@
         "re": "下载版本 ?(?<version>[\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/affinity-photo-$version.exe"
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/affinity-photo-$version.exe#dl.7z"
     },
     "notes": [
         "Using Key:",
