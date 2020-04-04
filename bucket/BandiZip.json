@@ -17,7 +17,6 @@
                 "script": [
                     "Move-Item \"$dir\\Bandizip.x64.exe\" \"$dir\\Bandizip.exe\"",
                     "Move-Item \"$dir\\bz.x64.exe\" \"$dir\\bz.exe\"",
-                    "Move-Item \"$dir\\data\\RegDll.x64.exe\" \"$dir\\data\\RegDll64.exe\"",
                     "sudo regsvr32 /s \"$dir\\bdzshl.x64.dll\"",
                     "sudo Start-Process -filepath \"$dir\\patch.exe\" -ArgumentList \"/silent\" -Wait",
                     "Start-Process -filepath \"$dir\\Bandizip.exe\" -ArgumentList \"/setup\""
@@ -32,7 +31,6 @@
                 "script": [
                     "Move-Item \"$dir\\BandiZip.x86.exe\" \"$dir\\BandiZip.exe\"",
                     "Move-Item \"$dir\\bz.x86.exe\" \"$dir\\bz.exe\"",
-                    "Move-Item \"$dir\\data\\RegDll.x86.exe\" \"$dir\\data\\RegDll32.exe\"",
                     "sudo regsvr32 /s \"$dir\\bdzshl.x86.dll\"",
                     "sudo Start-Process -filepath \"$dir\\patch.exe\" -ArgumentList \"/silent\" -Wait",
                     "Start-Process -filepath \"$dir\\Bandizip.exe\" -ArgumentList \"/setup\""
