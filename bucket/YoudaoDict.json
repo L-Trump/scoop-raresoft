@@ -1,10 +1,10 @@
 {
-    "version": "8.9.0",
+    "version": "8.9.1",
     "description": "有道词典绿色精简VIP破解版",
-    "homepage": "https://www.mpyit.com/youdaocidian.html",
+    "homepage": "http://ys-n.ys168.com/598850012/g635F2K6HGMNJJkhpTtf/Readme.txt",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict-8.9.0.7z",
-    "hash": "db6dd76c8b04db2561b579fef1540a3d127abab810d07e8bb0b0b32cfe6cd71f",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict_8.9.1.7z",
+    "hash": "313685bc1bbef54edaf4428e4f819bc073f913a0601af8967dc3bb7ff876983b",
     "installer": {
         "script": "sudo cmd /c \"$dir\\setup.bat\""
     },
@@ -18,11 +18,16 @@
         ]
     ],
     "shortcuts": [
-        ["YoudaoDict.exe","..\\有道词典"]
+        [
+            "YoudaoDict.exe",
+            "..\\有道词典"
+        ]
     ],
     "checkver": {
-        "url": "https://www.mpyit.com/youdaocidian.html",
         "encode": "UTF-8",
-        "re": "「([\\d.]+)」"
+        "re": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict_$version.7z"
     }
 }
