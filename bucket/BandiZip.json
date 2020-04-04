@@ -4,7 +4,7 @@
     "description": "Bandizip，免费解压缩软件，号称速度最快的压缩和解压缩文件管理器。支持多核快速压缩、快速拖放，可以创建带密码和多卷的压缩包，可以提取包括RAR/RAR5/7Z/ZIP在内30多种格式，支持WinZip、7-Zip 和 WinRAR 以及其它压缩格式，付费许可后支持密码管理器、修复压缩包、密码恢复、预览压缩包内图片。",
     "depends": "sudo",
     "url": [
-        "https://dl.bandisoft.com/bandizip.ent/BANDIZIP-SETUP-ENT.EXE",
+        "https://dl.bandisoft.com/bandizip.ent/BANDIZIP-SETUP-ENT.EXE#/dl.7z",
         "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Bandizip.v7.x.Patch.exe#/patch.exe"
     ],
     "hash": [
@@ -64,6 +64,6 @@
         "re": "\\( ?v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://dl.bandisoft.com/bandizip.ent/BANDIZIP-SETUP-ENT.EXE"
+        "url": "https://dl.bandisoft.com/bandizip.ent/BANDIZIP-SETUP-ENT.EXE#/dl.7z"
     }
 }
