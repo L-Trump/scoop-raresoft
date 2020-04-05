@@ -110,6 +110,15 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | YoudaoDict | 有道词典绿色精简VIP破解版 |
 | Youku | 优酷视频去广告可下载1080p |
 | ZmEdu | 掌门1对1客户端 |
+| PDown | 百度云盘下载器 |
+| WinSnap | 小巧的截图工具，虽然我喜欢Snipaste |
+| LxMusic | 洛雪无损音乐下载器，真的好用 |
+| OpenHashTab | 在资源管理器中添加Hash校验选项 |
+| PCMaster | 软媒魔方，Windows工具集 |
+| Bandizip | 班迪解压缩工具，据说速度不错 |
+| QQLive | 腾讯视频去广告绿色版 |
+| AffinityDesigner | 十分好用的矢量画图工具 |
+| AffinityPhoto | 号称堪比PS的画图工具 |
 
 ***To Be Continue~***
 
