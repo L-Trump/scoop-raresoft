@@ -1,16 +1,19 @@
 {
-    "version": "6.37.7",
-    "description": "Internet Dowload Manager，能有效提高下载速度\nIDM+Onedrive世纪互联+千兆网=100MB/S",
+    "version": "6.37.8",
+    "description": [
+        "Internet Dowload Manager，能有效提高下载速度",
+        "IDM+Onedrive世纪互联+千兆网=100MB/S"
+    ],
     "homepage": "https://masuit.com/74/history",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/189/InetDownloadManager-6.37.7-crack.exe#dl.7z",
-    "hash": "1d8da26294ba98aec460896ae5bdeaa5d357e945bc76de5b4c514dee3365ff30",
+    "url": "http://xqh.ma:33001/189/InetDownloadManager_6.37.8.exe#/dl.7z",
+    "hash": "a2602ec9c48e9bf29ff5f4320b50afa84a47cbdaa0a389de0d28fe683fa7469f",
     "extract_dir": "Internet Download Manager",
     "installer": {
         "script": "sudo cmd /c \"$dir\\setup.bat\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+        "script": "sudo cmd /c \"$dir\\卸载.bat\""
     },
     "bin": [
         [
@@ -19,7 +22,9 @@
         ]
     ],
     "checkver": {
-        "url": "https://masuit.com/74/history",
-        "re": "er([\\d.]+) "
+        "re": "er ?([\\d.]+) "
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/189/InetDownloadManager_$version.exe#/dl.7z"
     }
 }
