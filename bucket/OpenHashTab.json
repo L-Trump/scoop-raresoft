@@ -1,0 +1,31 @@
+{
+    "version": "2.2.0",
+    "description": "为资源管理器属性加上Hash校验",
+    "depends": "sudo",
+    "homepage": "https://github.com/namazso/OpenHashTab",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": "sudo regsvr32 /s \"$dir\\OpenHashTab,1.dll\""
+            },
+            "uninstaller": {
+                "script": "sudo regsvr32 /u /s \"$dir\\OpenHashTab,1.dll\""
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": "sudo regsvr32 /s \"$dir\\OpenHashTab,3.dll\""
+            },
+            "uninstaller": {
+                "script": "sudo regsvr32 /u /s \"$dir\\OpenHashTab,3.dll\""
+            }
+        }
+    },
+    "url": "https://github.com/namazso/OpenHashTab/releases/download/v2.2.0/OpenHashTab_setup.exe",
+    "hash": "ab2a232a3b2833ef92cae9053d39af90ced0ea19f653a9e09fe1389457adedee",
+    "innosetup": true,
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/namazso/OpenHashTab/releases/download/v$version/OpenHashTab_setup.exe"
+    }
+}
