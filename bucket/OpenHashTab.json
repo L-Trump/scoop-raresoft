@@ -11,22 +11,24 @@
             "installer": {
                 "script": [
                     "innounp -x -d\"$dir\" -c\"{sys}\" \"$dir\\setup.exe\" -y",
-                    "sudo regsvr32 /s \"$dir\\OpenHashTab,1.dll\""
+                    "Move-Item \"$dir\\OpenHashTab,1.dll\" \"$dir\\OpenHashTab.dll\"",
+                    "sudo regsvr32 /s \"$dir\\OpenHashTab.dll\""
                 ]
             },
             "uninstaller": {
-                "script": "sudo regsvr32 /u /s \"$dir\\OpenHashTab,1.dll\""
+                "script": "sudo regsvr32 /u /s \"$dir\\OpenHashTab.dll\""
             }
         },
         "32bit": {
             "installer": {
                 "script": [
                     "innounp -x -d\"$dir\" -c\"{sys}\" \"$dir\\setup.exe\" -y",
-                    "sudo regsvr32 /s \"$dir\\OpenHashTab,3.dll\""
+                    "Move-Item \"$dir\\OpenHashTab,3.dll\" \"$dir\\OpenHashTab.dll\"",
+                    "sudo regsvr32 /s \"$dir\\OpenHashTab.dll\""
                 ]
             },
             "uninstaller": {
-                "script": "sudo regsvr32 /u /s \"$dir\\OpenHashTab,3.dll\""
+                "script": "sudo regsvr32 /u /s \"$dir\\OpenHashTab.dll\""
             }
         }
     },
