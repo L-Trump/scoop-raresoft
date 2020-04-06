@@ -1,10 +1,10 @@
 {
-    "version": "1.8.1.0",
+    "version": "1.8.2.0",
     "description": "付费无损音乐下载工具",
     "homepage": "http://xqh.ma:33001/MusicTool",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/MusicTools_v1.8.1.0.zip",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/MusicTools_v1.8.2.0.zip",
     "extract_dir": "MusicTools",
-    "hash": "b03f839256a8e24f84deebf283ba8a7cc058d767b9e798b23ea200478b26162d",
+    "hash": "a60a326861e99e733dbc89821e2fc576dc5ca86bbb6d65b1c073966c75eaa8cb",
     "bin": "MusicTools.exe",
     "shortcuts": [
         [
