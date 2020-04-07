@@ -1,15 +1,15 @@
 {
-    "version": "9.0.9.0",
+    "version": "9.1.0.0",
     "homepage": "http://www.kuwo.cn",
     "description": "酷我音乐牛逼啊！！包含QQ音乐、酷狗音乐等的基本所有版权...毕竟这仨货是一家的",
     "depends": "sudo",
     "url": [
-        "http://fastsoft.onlinedown.net/down/kuwo_jm847.exe#dl.7z",
-        "http://xqh.ma:33001/ltrump-onedrive/raresoftware/KwCrack_1.9.zip"
+        "http://down.kuwo.cn/mbox/kwmusic_web_4.exe#/dl.7z",
+        "http://xqh.ma:33001/ltrump-onedrive/raresoftware/KwCrack_2.0.zip"
     ],
     "hash": [
-        "069c64a0a7cc5e7b8bb96b5a7689236c69242d34bdb407ea3e503399fdaf06f0",
-        "7b502c796d6553e73746b9fe520a807df38e163f5eb9e4d2c15aa581ac7b82e6"
+        "5cf6c612791457614c7ab7004c35c13c17e65e2da87cfd8bb011384f58fc7119",
+        "e44428c4a8c3ca47f0411ba57fc6f759e8d4cd11107a8b5145bedf2398660fbb"
     ],
     "installer": {
         "script": [
@@ -34,10 +34,10 @@
         ]
     ],
     "checkver": {
-        "url": "http://soft.onlinedown.net/soft/44034.htm",
-        "re": "downurlstr ?=\"(?<Downurl>http.?://.*)\";[\\s\\S]*version ?=\"[\\s\\S]*?(?<version>[\\d.]+)"
+        "url": "http://www.33lc.com/soft/39362.html",
+        "re": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "$matchDownurl#dl.7z"
+        "url": "http://down.kuwo.cn/mbox/kwmusic_web_4.exe#/dl.7z"
     }
 }
