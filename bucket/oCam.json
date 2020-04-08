@@ -18,7 +18,7 @@
         "script": [
             "innounp -x -d\"$dir\" -c\"{app}\" \"$dir\\oCamInstaller.exe\" -y",
             "Remove-Item \"$dir\\oCamInstaller.exe\"",
-            "sudo Start-Process -filepath \"$dir\\patch.exe\" -ArugumentList \"/silent\" -Wait"
+            "sudo Start-Process -filepath \"$dir\\patch.exe\" -ArgumentList \"/silent\" -Wait"
         ]
     },
     "bin": "oCam.exe",
