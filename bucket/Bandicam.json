@@ -1,9 +1,9 @@
 {
-    "version": "4.5.7.1660",
+    "version": "4.5.8.1673",
     "description": "Bandicam Edition, 班迪录屏，游戏/屏幕录制工具",
-    "homepage": "https://www.ghpym.com/bandicam.html",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Bandicam-4.5.7.1660-crack.7z",
-    "hash": "076ba60f9a5c79ff403751367023706079a811fbae06981eca8d8efb7f304017",
+    "homepage": "https://www.423down.com/2119.html",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Bandicam_v4.5.8.1673_Portable.7z",
+    "hash": "91abcd24a45671b2cfe3ccd564a661c1216cca041294fc515a7240813104fcd8",
     "extract_dir": "BandicamPortable",
     "bin": [
         [
@@ -11,10 +11,15 @@
             "Bandicam"
         ]
     ],
+    "persist": "Data",
     "shortcuts": [
         [
             "Bandicam_Portable.exe",
             "..\\Bandicam\\班迪录屏"
+        ],
+        [
+            "Bandicam_Portable_免管理员启动器.exe",
+            "..\\Bandicam\\班迪录屏(免管理员)"
         ],
         [
             "App\\Bandicam\\bdfix.exe",
@@ -22,7 +27,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.ghpym.com/bandicam.html",
-        "re": " Bandicam v([\\d.]+)"
+        "encode": "UTF-8",
+        "re": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Bandicam_v$version_Portable.7z"
     }
 }
