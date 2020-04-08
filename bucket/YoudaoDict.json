@@ -1,16 +1,17 @@
 {
-    "version": "8.9.1",
+    "version": "8.9.2.0",
     "description": "有道词典绿色精简VIP破解版",
-    "homepage": "http://ys-n.ys168.com/598850012/g635F2K6HGMNJJkhpTtf/Readme.txt",
+    "homepage": "http://flyonzone.ys168.com/",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict_8.9.1.7z",
-    "hash": "313685bc1bbef54edaf4428e4f819bc073f913a0601af8967dc3bb7ff876983b",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict_v8.9.2.0.7z",
+    "hash": "78ac491e61e66b36d96733cf441fbc4ac064dd1e38e16d6d519cc961e71fa64c",
     "installer": {
         "script": "sudo cmd /c \"$dir\\setup.bat\""
     },
     "uninstaller": {
         "script": "sudo cmd /c \"$dir\\uninstall.bat\""
     },
+    "extract_dir": "YoudaoDict",
     "bin": [
         [
             "YoudaoDict.exe",
@@ -24,10 +25,11 @@
         ]
     ],
     "checkver": {
+        "url": "https://www.423down.com/7053.html",
         "encode": "UTF-8",
-        "re": "([\\d.]+)"
+        "re": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict_$version.7z"
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/YoudaoDict_v$version.7z"
     }
 }
