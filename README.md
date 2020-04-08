@@ -51,18 +51,24 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | Adobe Photoshop | PS相信很多人都用过或者听说过吧 |
 | Adobe Premiere Pro | Pr可以说占据了视频剪辑的半壁江山了 |
 | AdvancedInstaller | 好用的应用打包、重打包工具 |
+| AffinityDesigner | 十分好用的矢量画图工具 |
+| AffinityPhoto | 号称堪比PS的画图工具 |
 | AIDA64 | 十分详细的电脑硬件信息查看工具 |
 | AoMeiPartition | 傲梅分区助手，分区工具 |
 | AutoCAD2021 | 著名机械绘图软件2021版本 |
 | BandiCam | 班迪录屏，游戏录屏神器 |
+| Bandizip | 班迪解压缩工具，据说速度不错 |
 | BeyondCompare Pro| 十分牛逼的文件对比工具，支持各种格式的对比 |
 | BingDianDownloader | 冰点文库下载器，挺久前就有的东西 |
+| blackbird-player | 黑鸟播放器，包含大量高清直播线路 |
+| BurnAware |最强光盘映像工具。支持所有规格的光盘存储类型 |
 | CCMaker | CCMaker可以说是Adobe杀手，支持下载、安装、激活Adobe软件 |
 | CleanMyPC | 简洁高效的电脑清理工具 |
 | CorelVideoStudio| 会声会影是几款专业向剪辑软件里面十分好操作的一种了 |
 | DriverTalent | 驱动人生国际版，干净清洁无广告 |
 | dvdripper | WonderFox 的 DVD抓取工具 |
 | EasyU | 这是VIP版的油漆桶，是唯一一个清洁干净的PE制作工具 |
+| FinePrint | 完美的虚拟打印机驱动，用以排版等操作 |
 | FormatFactory | 格式工厂，我原来一直用这个进行格式转换 |
 | GoldWave | 老牌音频剪辑软件，体积小，适合偶尔用一用 |
 | HDVideoConverter | 又是一款视频格式转化工具，据说速度很快 |
@@ -72,17 +78,26 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | KuwoMusic | 酷我牛逼，基本共享酷狗和QQ音乐的曲库 |
 | LanzouCMD | 蓝奏控制台CMD，尝试突破100M限制 |
 | LanzouGUI | 蓝奏控制台GUI，尝试突破100M限制 |
+| LinkShellExtension | 万能的链接创建工具，包括软/硬链接等 |
 | Luminar | Luminar是一个图像处理软件，自动化处理能力强 |
+| LxMusic | 洛雪无损音乐下载器，真的好用 |
 | MasterLu | 鲁大师绿色去广告单文件版 |
 | MirillisAction | 又是一款超高清屏幕录像工具 |
 | MrOtter | Mr.Otter 是一款整合了 200+ 垂直网站内容的新式搜索引擎 |
 | MusicTools | 付费无损音乐下载器 |
 | NtrQQ | 精简绿化版QQ，有本地会员、防撤回等功能 |
+| oCam | 来自韩国的免费录屏工具 |
+| OpenHashTab | 在资源管理器中添加Hash校验选项 |
+| PCMaster | 软媒魔方，Windows工具集 |
 | PDFAntiCopy | PDF防盗取版权保护工具 |
+| pdfFactoryPro | 专业的PDF文档打印输出方案 |
+| PDown | 百度云盘下载器 |
 | ProcessLasso | 进程级优化工具，有效保证前台应用流畅运行 |
 | ProcessMonitor | 好用的进程监控工具 |
+| QQLive | 腾讯视频去广告绿色版 |
 | QQMusic | QQ音乐客户端去广告精简版 |
 | RStudio | 强大的数据恢复软件，支持多种文件系统 |
+| SketchUpPro | 全球知名的3D建模、工程绘图工具 |
 | SpeedPanX | 速盘极速版，快速下载百度云盘文件 |
 | TeamViewer | 著名的远程控制软件，运维协作工具 |
 | TencentEDU | 腾讯课堂自动更新版 |
@@ -90,6 +105,7 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | TotalCommander | 这是功能强大的全能Windows文件管理器 |
 | UltraCompare | 文本、应用比较工具，个人觉得不如BeyondCompare |
 | UltraEdit | UE是著名的文本、16进制等编辑器，据说非常好用 |
+| UninstallTool | 彻底卸载与清除残留的工具 |
 | VideoSou | M3U8直播/剧集搜索工具 |
 | VMwareWorkstation | 著名的虚拟机软件，虽然我现在用Hyper-V |
 | WinCam | WinCam是一款国外优秀的录像软件，小巧易用 |
@@ -97,6 +113,7 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | WinHex | 十分轻便好用的十六进制编辑器 |
 | WinOptimizer | 功能极度丰富的系统优化工具 |
 | WinRAR | 最好用的压缩软件 |
+| WinSnap | 小巧的截图工具，虽然我喜欢Snipaste |
 | WiseCare365 | 著名的系统清理软件，功能完善 |
 | WondershareFilemora | 万兴神剪手，视频剪辑工具 |
 | WondersharePDFelement| 万兴PDF专家，功能齐全 |
@@ -107,18 +124,10 @@ Remove-MpPreference -ExclusionPath "$($env:programdata)\scoop", "$($env:scoop)"
 | XMindZEN | 构思新颖，操作便捷的思维导图软件，由XMind演变而来 |
 | Xshell | 好用的SSH/Telnet等协议连接工具 |
 | XshellPlus | 包含了Xshell与Xftp |
+| XYplorer | Windows文件管理工具，类似TotalCommander |
 | YoudaoDict | 有道词典绿色精简VIP破解版 |
 | Youku | 优酷视频去广告可下载1080p |
 | ZmEdu | 掌门1对1客户端 |
-| PDown | 百度云盘下载器 |
-| WinSnap | 小巧的截图工具，虽然我喜欢Snipaste |
-| LxMusic | 洛雪无损音乐下载器，真的好用 |
-| OpenHashTab | 在资源管理器中添加Hash校验选项 |
-| PCMaster | 软媒魔方，Windows工具集 |
-| Bandizip | 班迪解压缩工具，据说速度不错 |
-| QQLive | 腾讯视频去广告绿色版 |
-| AffinityDesigner | 十分好用的矢量画图工具 |
-| AffinityPhoto | 号称堪比PS的画图工具 |
 
 ***To Be Continue~***
 
