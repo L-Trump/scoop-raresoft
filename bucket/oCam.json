@@ -1,0 +1,38 @@
+{
+    "version": "500.0",
+    "homepage": "http://ohsoft.net/eng/ocam/download.php?cate=1002",
+    "description": "oCam – 免费屏幕录像工具。这是款来自韩国的免费屏幕录制捕捉工具，界面简单易用，而且完全免费，编码功能强大，支持游戏录像，可录制任何区域，可选全屏模式或自定义区域截图；还能捕捉到正在播放的声音。操作步骤只需三步：1、设置屏幕录制范围；2、点击录制按钮；3、停止录制并保存；即可完成录像。",
+    "url": [
+        "https://raw.githubusercontent.com/ohsoft/archive/master/ocam/2020032401/oCam_v500.0.exe#/oCamInstaller.exe",
+        "http://xqh.ma:33001/ltrump-onedrive/raresoftware/oCam_v4.x_Patch_2.0.exe#/patch.exe"
+    ],
+    "hash": [
+        "fd57dd5a6b778dc34ea63da6a853a9ed8d5b5d7685b149bad4eb2c28a3e2c9f7",
+        "4d322db5b80db66c6fb72e25c44189803551883961e2c3191ead0e24fe7bfda2"
+    ],
+    "depends": [
+        "sudo",
+        "innounp"
+    ],
+    "installer": {
+        "script": [
+            "innounp -d\"$dir\" -c\"{app}\" \"$dir\\oCamInstaller.exe\" -y",
+            "Remove-Item \"$dir\\oCamInstaller.exe\"",
+            "sudo Start-Process -filepath \"$dir\\patch.exe\" -ArugumentList \"/silent\" -Wait"
+        ]
+    },
+    "bin": "oCam.exe",
+    "shortcuts": [
+        [
+            "oCam.exe",
+            "oCam"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "(?<Downurl>https://raw.githubusercontent.com/ohsoft/archive/master/ocam/[\\d]+/oCam_v(?<version>[\\d.]+).exe)"
+    },
+    "autoupdate": {
+        "url": "$matchDownurl#/oCamInstaller.exe"
+    }
+}
