@@ -1,48 +1,51 @@
 {
-    "version": "5.2.3",
+    "version": "5.2.4",
     "description": "WinSnap是一款国外优秀的截图软件，能够得心应手地捕获屏幕截图，软件小巧易用，功能一点不弱。",
     "homepage": "https://www.423down.com/5829.html",
     "depends": "sudo",
-    "architecture": {
-        "32bit": {
-            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinSnap_v5.2.3.exe#/dl.7z",
-            "hash": "26947dff8522ab7500d830c362742f502c08319faff61f7f86b9a6682ee27355"
-        },
-        "64bit": {
-            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinSnap64_v5.2.3.exe/#dl.7z",
-            "hash": "f9cc3a36a3fd21a2c8b242dc7990f469ef03973d1a4f1a27b7b2b0115dc641f7"
-        }
-    },
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinSnap_v5.2.4_x32-x64.exe#/dl.7z",
+    "hash": "e9cae0ef16fde5c15a242cb809cc082b902b2354e77002c5c8f759bd418418d2",
     "installer": {
         "script": "sudo regedit /s \"$dir\\设置为简体中文.reg\""
     },
     "uninstaller": {
         "script": "sudo regedit /s \"$dir\\删除注册表残留.reg\""
     },
-    "shortcuts": [
-        [
-            "WinSnap.exe",
-            "WinSnap"
-        ]
-    ],
-    "bin": [
-        [
-            "WinSnap.exe",
-            "WinSnap"
-        ]
-    ],
+    "architecture": {
+        "32bit": {
+            "shortcuts": [
+                [
+                    "WinSnap.exe",
+                    "WinSnap"
+                ]
+            ],
+            "bin": [
+                [
+                    "WinSnap.exe",
+                    "WinSnap"
+                ]
+            ]
+        },
+        "64bit": {
+            "shortcuts": [
+                [
+                    "WinSnap64.exe",
+                    "WinSnap"
+                ]
+            ],
+            "bin": [
+                [
+                    "WinSnap64.exe",
+                    "WinSnap"
+                ]
+            ]
+        }
+    },
     "checkver": {
         "encode": "UTF-8",
         "re": "v([\\d.]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinSnap_v5.2.3.exe#/dl.7z"
-            },
-            "64bit": {
-                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinSnap64_v5.2.3.exe/#dl.7z"
-            }
-        }
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WinSnap_v$version_x32-x64.exe#/dl.7z"
     }
 }
