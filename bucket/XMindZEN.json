@@ -1,15 +1,15 @@
 {
-    "version": "10.1.1",
-    "description": "XMind Zen是个操作简便的思维导图工具，帮助你专注于思维导图本身",
+    "version": "10.1.2",
+    "description": "XMind2020是个操作简便的思维导图工具，帮助你专注于思维导图本身",
     "homepage": "https://www.ghpym.com/xmindzen.html",
     "architecture": {
         "32bit": {
-            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN_10.1.1_32bit.7z",
-            "hash": "99f35cc583276ef6d656a1a9ba25a5ad5ce3ce87ea87e357d8ac7b931c85c4d9"
+            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_10.1.2_32bit.7z",
+            "hash": "d60f20efe8cd1690bc6b5fa2b47b216308d71985fa195ccc2a0b12bb41958580"
         },
         "64bit": {
-            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN_10.1.1_64bit.7z",
-            "hash": "d0146be3bb632ddfffcad93ccb694696498fbdbd5a15e6970e723be655f451bb"
+            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_10.1.2_64bit.7z",
+            "hash": "09674a0f40287c892dd39045e1c6430c7f4656103ff0c2842afc45d5e946224b"
         }
     },
     "shortcuts": [
@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN_$version_32bit.7z"
+                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_$version_32bit.7z"
             },
             "64bit": {
-                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMindZEN_$version_64bit.7z"
+                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_$version_64bit.7z"
             }
         }
     }
