@@ -1,6 +1,7 @@
 {
     "version": "2.4.52",
     "description": "掌门一对一学生端",
+    "nowait": true,
     "homepage": "https://www.zhangmen.com",
     "url": "https://web-data.zmlearn.com/client/cgRcBAxHZcn6CdGyUBV33V/ZmStudentClient_2.4.52.exe#dl.7z",
     "hash": "0e957f42e8861a5795819daeeafbee7f6bdb9865b94703389ffd615466012d3f",
