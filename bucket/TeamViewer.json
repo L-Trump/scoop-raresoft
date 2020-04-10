@@ -1,15 +1,17 @@
 {
-    "version": "15.4.4445",
+    "version": "15.4.8332",
     "description": "Teamviewer是著名的远程协作、远程维护工具，此破解版本可更换ID，可无人值守",
-    "homepage": "https://www.mpyit.com/teamviewer15.html",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/TeamViewer_15.4.4445.7z",
-    "hash": "42d40ba3a7dcf92d6f992019d289f2b12b1838b0ce136ba335b6397be6e04067",
+    "homepage": "https://www.423down.com/987.html",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/TeamViewer_v15.4.8332.7z",
+    "nowait": true,
+    "hash": "7380cf4069c97f726b4095f1466bb7634a28c7ad6c8926499c63d9b10b748f7f",
     "depends": "sudo",
+    "extract_dir": "TeamViewer",
     "installer": {
-        "script": "sudo cmd /c \"$dir\\Setup.bat\""
+        "script": "sudo cmd /c \"$dir\\!绿化.bat\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\Uninstall.bat\""
+        "script": "sudo cmd /c \"$dir\\!卸载.bat\""
     },
     "bin": [
         [
@@ -28,8 +30,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.mpyit.com/teamviewer15.html",
         "encode": "UTF-8",
-        "re": "「([\\d.]+)"
+        "re": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/TeamViewer_v$version.7z"
     }
 }
