@@ -13,7 +13,7 @@
         }
     },
     "msi": {
-        "code": "DB63C1EA-88ED-4A33-A8A8-D364D60A82CE"
+        "code": "{A944105E-3821-4531-808E-AF2DD1448E93}"
     },
     "bin": "MindManager.exe",
     "nowait": true,
