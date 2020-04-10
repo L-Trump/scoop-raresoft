@@ -21,6 +21,7 @@
             "IDM"
         ]
     ],
+    "nowait": true,
     "checkver": {
         "re": "er ?([\\d.]+) "
     },
