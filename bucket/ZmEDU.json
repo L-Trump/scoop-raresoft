@@ -1,10 +1,10 @@
 {
-    "version": "2.4.42",
+    "version": "2.4.52",
     "description": "掌门一对一学生端",
     "nowait": true,
     "homepage": "https://www.zhangmen.com",
-    "url": "https://web-data.zmlearn.com/client/8bnTJMxqRJZKRJTbsq2PcR/ZmStudentClient_2.4.42.exe#dl.7z",
-    "hash": "bfa259781cc1a447dc1789a655937a936f9466f0c55f2735b134c143dd2927f8",
+    "url": "https://web-data.zmlearn.com/client/cgRcBAxHZcn6CdGyUBV33V/ZmStudentClient_2.4.52.exe#dl.7z",
+    "hash": "0e957f42e8861a5795819daeeafbee7f6bdb9865b94703389ffd615466012d3f",
     "bin": [
         [
             "掌门1对1辅导.exe",
