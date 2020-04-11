@@ -16,7 +16,7 @@
     ],
     "installer": {
         "script": [
-            "Start-Process -filepath \"$dir\\dl.exe\" -ArgumentList \"/SILENT /LANG=CHS /DIR=\\\"$dir\\\"\" -Wait",
+            "Start-Process -filepath \"$dir\\dl.exe\" -ArgumentList \"/SILENT /LANG=CHS /DIR=$dir\" -Wait",
             "sudo Start-Process -filepath \"$dir\\patch.exe\" -ArgumentList \"/silent /backup\" -Wait"
         ]
     },
