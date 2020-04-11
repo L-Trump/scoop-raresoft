@@ -1,9 +1,9 @@
 {
-    "version": "8.13.176051",
+    "version": "8.13.176093",
     "description": "数据恢复工具，特色是支持Linux、Mac的文件系统",
     "homepage": "https://www.423down.com/8132.html",
     "url": "http://xqh.ma:33001/189/R-Studio_Network_v8.13.176093_Portable.7z",
-    "hash": "ccba7950b19725692d5a6f4441fa28cc6d37b94f3646a772c9bea912ddc15c74",
+    "hash": "1f20d754ff87b16ae658296181efcb87aeff3605597da78d40bd718cf8cf3cb9",
     "bin": [
         [
             "RStudioPortable.exe",
@@ -17,7 +17,10 @@
         ]
     ],
     "persist": [
-        ["Data","RStudio_Data"]
+        [
+            "Data",
+            "RStudio_Data"
+        ]
     ],
     "checkver": {
         "encode": "UTF-8",
