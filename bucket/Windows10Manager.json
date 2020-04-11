@@ -1,6 +1,6 @@
 {
-    "version": "3.2.4",
-    "homepage": "https://www.mpyit.com/windows10manager.html",
+    "version": "3.2.4.0",
+    "homepage": "https://www.423down.com/9402.html",
     "description": "Windows10Manager，好用的Win10百宝箱，可以清理、维修、自定义系统等",
     "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Windows10Manager-3.2.4.7z",
     "hash": "e09cc95a886f2b1801f8eaf48f7150adcbe33e781c8170699d962e0849ec61ea",
@@ -14,7 +14,6 @@
     ],
     "checkver": {
         "encode": "UTF-8",
-        "url": "https://www.mpyit.com/windows10manager.html",
-        "re": "Windows10Manager\\S([\\d.]+)"
+        "re": "v([\\d.]+)"
     }
 }
