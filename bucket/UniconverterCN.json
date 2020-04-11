@@ -22,7 +22,7 @@
         ]
     },
     "uninstaller": {
-        "script": "sudo Start-Process -filepath \"$dir\\unins000.exe\" -ArgumentList \"/SILENT\" -Wait"
+        "script": "sudo Start-Process -filepath \"$dir\\bin\\unins000.exe\" -ArgumentList \"/SILENT\" -Wait"
     },
     "bin": [
         [
