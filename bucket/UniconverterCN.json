@@ -16,12 +16,12 @@
     ],
     "installer": {
         "script": [
-            "Start-Process -filepath \"$dir\\dl.exe\" -ArgumentList \"/SILENT /LANG=CHS /DIR=$dir\" -Wait",
+            "Start-Process -filepath \"$dir\\dl.exe\" -ArgumentList \"/VERYSILENT /SUPPRESSMSGBOXES /LANG=CHS /DIR=$dir\" -Wait",
             "sudo Start-Process -filepath \"$dir\\patch.exe\" -ArgumentList \"/silent /backup\" -Wait"
         ]
     },
     "uninstaller": {
-        "script": "sudo Start-Process -filepath \"$dir\\unins000.exe\" -ArgumentList \"/SILENT\" -Wait"
+        "script": "sudo Start-Process -filepath \"$dir\\unins000.exe\" -ArgumentList \"/VERYSILENT\" -Wait"
     },
     "bin": [
         [
