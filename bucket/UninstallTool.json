@@ -1,9 +1,9 @@
 {
-    "version": "3.5.9.5660",
+    "version": "3.5.10.5670",
     "homepage": "https://www.423down.com/868.html",
     "description": "Uninstall Tool是一款功能强大的专业卸载工具。",
-    "url": "http://xqh.ma:33001/189/UninstallTool_v3.5.9.5660_x86_x64.exe#/UninstallTool.exe",
-    "hash": "c3487e5f880bb636de8aea502d682ee159c926c55d1793c764fb5e99fa7da7af",
+    "url": "http://xqh.ma:33001/189/UninstallTool_v3.5.10.5670_x86_x64.exe#/UninstallTool.exe",
+    "hash": "60e0e09222c39b2b04e19e1277cfbc60c9e8f1fbaefc8d996bd119cd59e24abe",
     "bin": "UninstallTool.exe",
     "shortcuts": [
         [
@@ -16,6 +16,6 @@
         "re": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/UninstallTool_v$version_x86_x64.exe#/UninstallTool.exe"
+        "url": "http://xqh.ma:33001/189/UninstallTool_v$version_x86_x64.exe#/UninstallTool.exe"
     }
 }
