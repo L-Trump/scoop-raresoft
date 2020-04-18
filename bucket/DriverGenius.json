@@ -1,0 +1,21 @@
+{
+    "version": "9.61",
+    "description": "驱动精灵，驱动研究专注不怠，只为解决驱动问题",
+    "homepage": "https://www.423down.com/5768.html",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/DriverGenius_v9.61.exe/#dl.7z",
+    "hash": "99ca9feb698fd8210ad071d979e1712f74a62f5c3cf9ff21ed6d53aa18705473",
+    "bin": "drivergenius.exe",
+    "shortcuts": [
+        [
+            "drivergenius.exe",
+            "..\\驱动精灵"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/DriverGenius_v$version.exe/#dl.7z"
+    }
+}
