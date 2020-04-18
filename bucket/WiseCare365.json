@@ -1,9 +1,9 @@
 {
-    "version": "5.5.2.547",
-    "homepage": "https://www.mpyit.com/wisecare365.html",
+    "version": "5.5.3.548",
+    "homepage": "https://www.423down.com/3471.html",
     "description": "WiseCare365可以说是专业用来清理电脑的工具",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/WiseCare365-5.5.2-crack.exe#dl.7z",
-    "hash": "6792fe62f63988d6e238dc949b50fe7c3c9af033a74ce3fb2db7d6853c6a923c",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wise_Care_365_Pro_v5.5.3.548.7z",
+    "hash": "32de7db391eb3c1400bb68e8237f2e7d0c7a05436dfcf86c669db0bb0af01aa2",
     "extract_dir": "WiseCare365",
     "bin": "WiseCare365.exe",
     "shortcuts": [
@@ -12,9 +12,14 @@
             "WiseCare365"
         ]
     ],
+    "uninstaller": {
+        "script": "sudo cmd /c \"$dir\\!WiseCare365.bat\""
+    },
     "checkver": {
-        "url": "https://www.mpyit.com/wisecare365.html",
         "encode": "UTF-8",
-        "re": "「([\\d.]+)"
+        "re": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wise_Care_365_Pro_v$version.7z"
     }
 }
