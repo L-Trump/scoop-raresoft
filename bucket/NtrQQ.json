@@ -1,10 +1,10 @@
 {
-    "version": "9.2.5.26724",
+    "version": "9.3.2.26869",
     "homepage": "https://masuit.com/123",
     "description": "NtrQQ，本地会员、防撤回、IP查看....应有尽有",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQ-9.2.5.26724-NtrQQ.exe#dl.7z",
-    "hash": "ab0f81ec16fab23017d52973c01f18b9cf0578416d9be33b5161b27bb48d6dd4",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQ-9.3.2.26869-NtrQQ.exe#dl.7z",
+    "hash": "f5784c50d7b0e1f24fcd315c44b8dec19dd5ee4ac62b2c4961eff335c5f9870f",
     "extract_dir": "QQ",
     "installer": {
         "script": "sudo cmd /c \"$dir\\绿化.bat\""
@@ -33,5 +33,8 @@
         "url": "https://masuit.com/123",
         "encode": "UTF-8",
         "re": "QQ ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQ-$version-NtrQQ.exe#dl.7z"
     }
 }
