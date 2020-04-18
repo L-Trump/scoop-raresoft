@@ -1,10 +1,10 @@
 {
-    "version": "1.5.6.135",
+    "version": "1.5.6.146",
     "description": "腾讯课堂客户端，无特殊功能",
     "homepage": "https://ke.qq.com",
     "nowait": true,
-    "url": "http://pub.idqqimg.com/pc/misc/groupgift/fudao/pc/KeInstall_1.5.6.135_sign.exe#dl.7z",
-    "hash": "1217f7005f8a8e42ea829d2f3ded4f1d06e8e190f5bddc08c666735f7a96be51",
+    "url": "http://pub.idqqimg.com/pc/misc/groupgift/fudao/pc/KeInstall_1.5.6.146_sign.exe#dl.7z",
+    "hash": "dac345c3632f51de519f06240ccaa1559e9c4c0c8b876999d8a592d4ecd51107",
     "bin": [
         [
             "bin\\TXEdu.exe",
