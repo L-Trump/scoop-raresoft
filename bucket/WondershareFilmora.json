@@ -1,10 +1,10 @@
 {
-    "version": "9.4.5.10",
+    "version": "9.4.6.2",
     "description": "万兴神剪手，天知道万兴为什么做了这么多奇奇怪怪的东西",
     "homepage": "https://www.423down.com/9357.html",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wondershare_Filemora_9.4.5.10.7z",
-    "hash": "d698f543552fc28cad99c6b7b6cf19d826cb8c25aa81135027692fe2ac05c51a",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wondershare_Filmora_9.4.6.2.7z",
+    "hash": "6fbd4758646d6ccd9f5a97af482a5c556aeadf0d5b46aec6f90b44d504a753c9",
     "extract_dir": "Filmora",
     "installer": {
         "script": "sudo cmd /c \"$dir\\!绿化.bat\""
@@ -23,6 +23,6 @@
         "re": "Filmora ?v?([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wondershare_Filemora_$version.7z"
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Wondershare_Filmora_$version.7z"
     }
 }
