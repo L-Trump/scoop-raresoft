@@ -7,10 +7,10 @@
     "hash": "717daaf065c83e9b493e50130e9ff61d1b12dced00513b0d9965c234c70b9553",
     "extract_dir": "SketchUp 2020",
     "installer": {
-        "script": "sudo cmd /c \"$dir\\setup.bat\""
+        "script": "sudo cmd /c \"$dir\\!绿化.bat\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+        "script": "sudo cmd /c \"$dir\\!卸载.bat\""
     },
     "bin": [
         [
