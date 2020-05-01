@@ -1,10 +1,10 @@
 {
-    "version": "15.4.8332",
+    "version": "15.5.3.0",
     "description": "Teamviewer是著名的远程协作、远程维护工具，此破解版本可更换ID，可无人值守",
     "homepage": "https://www.423down.com/987.html",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/TeamViewer_v15.4.8332.7z",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/TeamViewer_v15.5.3.0.7z",
     "nowait": true,
-    "hash": "7380cf4069c97f726b4095f1466bb7634a28c7ad6c8926499c63d9b10b748f7f",
+    "hash": "e4f5e8897267a9061f40043987109a538a146a8ab68da23e2134a5a7125cde21",
     "depends": "sudo",
     "extract_dir": "TeamViewer",
     "installer": {
