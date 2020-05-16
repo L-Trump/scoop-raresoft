@@ -1,11 +1,11 @@
 {
-    "version": "17.63.0.0",
+    "version": "17.66.0.0",
     "description": "QQ音乐去广告精简版",
     "homepage": "https://www.423down.com/193.html",
     "depends": "sudo",
     "extract_dir": "QQMusic",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQMusic_v17.63.0.0_Green.7z",
-    "hash": "8d93bd501308f604049d0667f3df185bcac86c62f09bc17c961c2e6a2fc8dd88",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQMusic_v17.66.0.0.7z",
+    "hash": "a37784fe09e075a46305ca9774f5ce4d1cc7af679292c0b7fc69e7b2fb7e7b92",
     "installer": {
         "script": "sudo cmd /c \"$dir\\!绿化.bat\""
     },
@@ -29,6 +29,6 @@
         "re": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQMusic_v$version_Green.7z"
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQMusic_v$version.7z"
     }
 }
