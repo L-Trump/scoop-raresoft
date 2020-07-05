@@ -1,16 +1,17 @@
 {
-    "version": "6.0.0028",
+    "version": "6.0.0029",
     "description": "Xmanager Power Suit，包含Xftp, Xshell, 支持多种协议",
     "homepage": "https://www.423down.com/8196.html",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xmanager_Power_Suite_6.0.0028.7z",
-    "hash": "3a5c96b13cf54642c1779f1408c4ae2ec5d404676309d760082697839c7d3f23",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xmanager_Power_Suite_v6.0.0029.7z",
+    "hash": "150d62cd50826a5c772cf9294dc31a98c54affabe657c5970431f200fa3fad4b",
     "installer": {
-        "script": "sudo cmd /c \"$dir\\setup.bat\""
+        "script": "sudo cmd /c \"$dir\\!绿化.bat\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+        "script": "sudo cmd /c \"$dir\\!卸载.bat\""
     },
+    "extract_dir": "Xmanager Power Suite 6",
     "bin": [
         [
             "Xshell.exe",
@@ -62,5 +63,8 @@
     "checkver": {
         "encode": "UTF-8",
         "re": "Xmanager Power Suite v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xmanager_Power_Suite_v$version.7z"
     }
 }
