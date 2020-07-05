@@ -1,15 +1,16 @@
 {
-    "version": "6.0.0187",
+    "version": "6.0.0191",
     "description": "Xftp，用以连接Sftp等协议",
     "homepage": "https://www.423down.com/8196.html",
     "depends": "sudo",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xftp_6.0.0187.7z",
-    "hash": "2d24940404fb3d581f77d7f3547564b4a99592f1fbc3e03f8ad6cb94025f935d",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xftp_v6.0.0191.7z",
+    "hash": "af2d3bec5c6acfec5b930b2053eef1cce124216b6bde15fc7c359f77692794a6",
+    "extract_dir": "Xftp",
     "installer": {
-        "script": "sudo cmd /c \"$dir\\setup.bat\""
+        "script": "sudo cmd /c \"$dir\\!绿化.bat\""
     },
     "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\uninstall.bat\""
+        "script": "sudo cmd /c \"$dir\\!卸载.bat\""
     },
     "bin": [
         [
@@ -26,5 +27,8 @@
     "checkver": {
         "encode": "UTF-8",
         "re": "Xftp v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xftp_v$version.7z"
     }
 }
