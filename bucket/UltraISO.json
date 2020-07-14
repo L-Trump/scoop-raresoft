@@ -1,0 +1,26 @@
+{
+    "version": "9.7.3.3629",
+    "description": "UltraISO 软碟通 – 轻轻松松编辑映像文件",
+    "homepage": "https://www.423down.com/1397.html",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/UltraISO_v9.7.3.3629.exe#/dl.7z",
+    "hash": "93ddd37caaa96a7119b1859e925f046df3ef0f4c630ac9cf87c820e0a67c9569",
+    "bin": [
+        [
+            "UltraISO.exe",
+            "ultraiso"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "UltraISO.exe",
+            "UltraISO"
+        ]
+    ],
+    "checkver": {
+        "encode": "UTF-8",
+        "re": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/UltraISO_v$version.exe#/dl.7z"
+    }
+}
