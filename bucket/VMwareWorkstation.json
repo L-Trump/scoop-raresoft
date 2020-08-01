@@ -19,12 +19,6 @@
             "vmworkstation"
         ]
     ],
-    "shortcuts": [
-        [
-            "vmware.exe",
-            "VMware Workstation 15"
-        ]
-    ],
     "checkver": {
         "url": "https://x.cuiplay.com:888/vmw/",
         "encode": "UTF-8",
