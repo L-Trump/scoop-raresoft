@@ -7,7 +7,7 @@
     "hash": "5eae32d38fc5434f255fb5af883d93ab25201fce48f60b42dfcba7a1abab5565",
     "installer": {
         "script": [
-            "Remove-Item \"$dir\\installer.exe\" \"$dir\\installer.msi\"",
+            "Move-Item \"$dir\\installer.exe\" \"$dir\\installer.msi\"",
             "sudo Start-Process msiexec -ArgumentList \"/i \"\"$dir\\installer.msi\"\" /quiet /norestart INSTALL_DIR_PROPERTY=\"\"$dir\\AffinityDesigner\"\" EMAIL_PROPERTY=\"\"ltrump@vip.tg\"\" PRODUCT_KEY_PROPERTY=\"\"EJEHEFE3HAXNEHPV\"\" NO_UPDATE_CHECK_PROPERTY=1 INSTALL_DESKTOP_SHORTCUT_PROPERTY=1\" -Wait"
         ]
     },

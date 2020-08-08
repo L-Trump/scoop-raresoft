@@ -7,7 +7,7 @@
     "hash": "99a029a8c85a0a086e93bcce7e16b955cc6438bdab2cb26ccc4c76bc316fd339",
     "installer": {
         "script": [
-            "Remove-Item \"$dir\\installer.exe\" \"$dir\\installer.msi\"",
+            "Move-Item \"$dir\\installer.exe\" \"$dir\\installer.msi\"",
             "sudo Start-Process msiexec -ArgumentList \"/i \"\"$dir\\installer.msi\"\" /quiet /norestart INSTALL_DIR_PROPERTY=\"\"$dir\\AffinityPhoto\"\" EMAIL_PROPERTY=\"\"ltrump@vip.tg\"\" PRODUCT_KEY_PROPERTY=\"\"L081LNLM6OHZQPC9\"\" NO_UPDATE_CHECK_PROPERTY=1 INSTALL_DESKTOP_SHORTCUT_PROPERTY=1\" -Wait"
         ]
     },
