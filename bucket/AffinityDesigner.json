@@ -16,7 +16,7 @@
     },
     "bin": [
         [
-            "Designer.exe",
+            "AffinityDesigner\\Designer.exe",
             "AffinityDesigner"
         ]
     ],

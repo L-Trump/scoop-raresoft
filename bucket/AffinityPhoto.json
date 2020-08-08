@@ -16,7 +16,7 @@
     },
     "bin": [
         [
-            "Photo.exe",
+            "AffinityPhoto\\Photo.exe",
             "AffinityPhoto"
         ]
     ],
